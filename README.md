@@ -1,2 +1,3 @@
 # Project-3
 Repository for files related to Project 3
+Our group completed a project focused on the relationship between pickleball courts and where older people move to retire, focusing exclusively on the state of Florida as our retirement location. Relationships of interest included:  elderly populations and proximity to pickleball courts and where is the elderly population on the rise within the US and where is it decreasing.Data was gathered primarily from Census.gov data tables  to accurately identify populations of the different counties in Florida and an API from The Global Pickleball Network website to collect data focused on pickleball court locations.  
