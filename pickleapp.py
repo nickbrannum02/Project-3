@@ -37,13 +37,13 @@ def welcome():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"/courts_complete<br/>"
-        f"/elderly_complete<br/>"
-        f"/county_data"
+        f"/api/courts_complete<br/>"
+        f"/api/elderly_complete<br/>"
+        f"/api/county_data"
     )
 
 
-@app.route('/courts_complete', methods=['GET'])
+@app.route('/api/courts_complete', methods=['GET'])
 def courts():
     # Connect to the SQLite database
     conn = sqlite3.connect('florida_info_db.sqlite')  # Replace with your database name
@@ -61,7 +61,7 @@ def courts():
     return jsonify(court_data)
 
 
-@app.route('/elderly_complete', methods=['GET'])
+@app.route('/api/elderly_complete', methods=['GET'])
 def elderly():
     # Connect to the SQLite database
     conn = sqlite3.connect('florida_info_db.sqlite')  # Replace with your database name
@@ -78,7 +78,7 @@ def elderly():
     # Return the data as JSON
     return jsonify(data)
 
-@app.route('/county_data', methods=['GET'])
+@app.route('/api/county_data', methods=['GET'])
 def base_map():
     # Connect to the SQLite database
     conn = sqlite3.connect('florida_info_db.sqlite')  # Replace with your database name
