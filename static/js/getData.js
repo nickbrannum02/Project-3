@@ -8,7 +8,7 @@ d3.json('/api/county_data')
 
 // Courts Data
 courtsData = {}
-d3.console('/api/courts_complete')
+d3.json('/api/courts_complete')
   .then(function(data) {
     courtsData = data;
     console.log(courtsData);
