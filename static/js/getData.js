@@ -14,3 +14,11 @@ d3.json('/api/courts_complete')
     console.log(courtsData);
   })
 
+// Hospital Data
+hospitalData = {}
+d3.json('/api/hospital_data')
+  .then(function (data) {
+    hospitalData = data;
+    console.log(hospitalData);
+  })
+

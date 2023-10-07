@@ -21,6 +21,7 @@ Base.prepare(autoload_with=engine)
 # Save reference to the table
 courts = Base.classes.court_location
 elderly = Base.classes.elderly_people
+hospitals = Base.classes.hospitals 
 
 #################################################
 # Flask Setup
@@ -93,6 +94,25 @@ def base_map():
     # Return the data as JSON
     return jsonify(county_data)
 
+@app.route('/api/hospital_data', methods=['GET'])
+def hospitals():
+    # Connect to the SQLite database
+    conn = sqlite3.connect('florida_info_db.sqlite')  # Replace with your database name
+    # Create a cursor object
+    cursor = conn.cursor()
+    # Execute an SQL query to select all rows from the table
+    cursor.execute('SELECT * FROM hospitals')  # Replace with your table name
+    # Fetch all rows from the query result
+    rows = cursor.fetchall()
+    # Close the database connection
+    conn.close()
+    # Convert the rows to a list of dictionaries
+    hospital_data = [{'Name': row[0], 'City': row[1], 'County': row[2], 'Latitude': row[3], "Longitude": row[4], "ID": row[5]} for row in rows]
+    # Return the data as JSON
+    return jsonify(hospital_data)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+#python pickleapp.py
