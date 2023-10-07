@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choropleth Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div id="map" style="width: 800px; height: 600px;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([0, 0], 2);
+
+        // Add a base map layer (e.g., OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Fetch GeoJSON data from your server (replace with actual URL)
+        fetch('your_geojson_data.geojson')
+            .then(response => response.json())
+            .then(data => {
+                // Create a choropleth layer
+                L.geoJSON(data, {
+                    style: function (feature) {
+                        // Customize style based on your data
+                        return {
+                            fillColor: getColor(feature.properties.value),
+                            weight: 2,
+                            opacity: 1,
+                            color: 'white',
+                            dashArray: '3',
+                            fillOpacity: 0.7
+                        };
+                    }
+                }).addTo(map);
+            });
+
+        // Define a function to determine fill color based on data values
+        function getColor(value) {
+            // Implement your color mapping logic here
+            // For example, return different colors based on value ranges
+            // You can use a color scale library like D3.js for more advanced mapping
+            return value > 10 ? 'red' :
+                   value > 5  ? 'yellow' :
+                                'green';
+        }
+    </script>
+</body>
+</html>
