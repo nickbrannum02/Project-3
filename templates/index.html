@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florida Pickleball And Population</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="icon" href="../PickleballIcon.png">
+    <link rel="icon" href="static/images/PickleballIcon.png">
     <style>
         /* CSS for styling the map and description */
         body {
@@ -30,6 +30,12 @@
             height: auto;
             width: 600px; 
             float: left;
+            padding: 20px;
+        }
+        .google-interest-area {
+            height: auto;
+            width: 600px;
+            float:left; 
             padding: 20px;
         }
     </style>
@@ -59,14 +65,14 @@
         </p>
 
         <div class="google-container">
-            <div class="google-interest">
-                <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
-                <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/063wkj","geo":"US","time":"2018-10-09 2023-10-09"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F063wkj&hl=en-US","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
-            </div>
-            <div class="google-interest">
+            <div class="google-interest-area">
                 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
                 <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"/m/063wkj","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F063wkj&hl=en-US","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
             </div>
+            <div class="google-interest">
+                <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
+                <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/063wkj","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F063wkj&hl=en-US","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+            </div> 
         </div>
 
         <div class="details">
@@ -74,7 +80,7 @@
             <h2>Pickleball Court and Equipment Information</h2>
             <div class="square">
                 <div>
-                    <img src="../PickleballCourtDimensions.png" alt="Dimensions of Pickleball Court" style="float: left;height: 225px;width: 300px;margin: 30px;">
+                    <img src="static/images/PickleballCourtDimensions.png" alt="Dimensions of Pickleball Court" style="float: left;height: 225px;width: 300px;margin: 30px;">
                 </div>
             </div>
             <p>
@@ -83,7 +89,7 @@
                 is used for both double and singles with the net hight set at 36 inches at the sidelines and 34 inches in the middle. 
                 The pickleball court is set similar to a tennis court with the left and right service areas and the 7 foot non-volley 
                 zone most commonly known as the "kitchen"
-                <img src="../PickleballPaddles.png" alt="Pickleball Equipment" style="float: right; height: 200px; width: 200px; margin:40px;">
+                <img src="static/images/PickleballPaddles.png" alt="Pickleball Equipment" style="float: right; height: 200px; width: 200px; margin:40px;">
                 <br><br><br><br>
                 The equipment used in pickleball are relatively simple. Each player uses a paddle smaller than a tennis raquet but a little bigger than a ping pong paddle.
                 Pickleball paddles were originally made only from wood, however, 
@@ -100,7 +106,7 @@
         <h3>Sources</h3>
         <p>
             <a href="https://usapickleball.org/what-is-pickleball/history-of-the-game/">https://usapickleball.org/what-is-pickleball/history-of-the-game/</a><br>
-            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=">https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=</a>
+            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=">https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=</a><br>
             <a href="https://www.livebayside.com/10-little-known-facts-pickleball/">https://www.livebayside.com/10-little-known-facts-pickleball/</a><br>
             <a href="https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.">https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.</a><br>
             <a href="https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts">https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts</a>
