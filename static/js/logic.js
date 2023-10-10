@@ -36,7 +36,6 @@ sleep(2000).then(() => {
 
 
   let heatArray = [];
-  const dataSet = [courtsData]
   dataSet.forEach((data) => {
     data.forEach((item) => {
       heatArray.push([item.Location.Latitude, item.Location.Longitude]);
