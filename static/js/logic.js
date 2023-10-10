@@ -18,7 +18,7 @@ sleep(2000).then(() => {
     const dataSet = [courtsData];
     dataSet.forEach((data) => {
         data.forEach((item) => {
-            const marker = L.marker([item.Latitude, item.Longitude]);
+            const marker = L.marker([item.Location.Latitude, item.Location.Longitude]);
             // Customize marker icon, pop-up content, etc.
             marker.bindPopup(
                 `<b>Location Name:</b> ${item["Location Name"]}<br>` +
@@ -33,4 +33,22 @@ sleep(2000).then(() => {
 
     // Add the marker cluster group to the map
     map.addLayer(markers);
+
+
+  let heatArray = [];
+  const dataSet = [courtsData]
+  dataSet.forEach((data) => {
+    data.forEach((item) => {
+      heatArray.push([item.Location.Latitude, item.Location.Longitude]);
+    })
+
+  })
+  console.log(heatArray)
+  let heat = L.heatLayer(heatArray, {
+    minOpacity: 0.25,
+    radius: 25,
+    blur: 11,
+  });
+  map.addLayer(heat);    
 });
+
