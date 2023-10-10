@@ -45,6 +45,56 @@ sleep(2000).then(() => {
     iconAnchor: [16, 32], 
     popupAnchor: [0, -32]
 });
+const labels = [];
+const xDataPoints = [];
+const yDataPoints = [];
+const countyDataSet = [countyData];
+countyDataSet.forEach((data) => {
+    data.forEach((item) => {
+        labels.push(item.County);
+        xDataPoints.push(item['Percent Elderly']);
+        yDataPoints.push(item['Courts per 10,000']);
+
+});
+
+// Create a scatterplot
+const ctx = document.getElementById('scatterplot').getContext('2d');
+new Chart(ctx, {
+    type: 'scatter',
+    data: {
+        labels: labels,
+        datasets: [{
+            label: 'County Data',
+            data: countyData.map((item, index) => ({
+                x: xDataPoints[index],
+                y: yDataPoints[index],
+                label: item.County,
+            })),
+            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1,
+            pointRadius: 5,
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Percent Elderly'
+                }
+            },
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Courts per 10,000'
+                }
+            }
+        }
+    }
+});
 
   // Create a marker cluster group for hospitals
   const hosMarkers = L.markerClusterGroup();
@@ -91,4 +141,5 @@ sleep(2000).then(() => {
 
   // Create layer control and add it to the map
   L.control.layers(null, overlayLayers).addTo(map);
+});
 });
