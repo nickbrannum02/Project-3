@@ -18,7 +18,7 @@ sleep(2000).then(() => {
     const dataSet = [courtsData];
     dataSet.forEach((data) => {
         data.forEach((item) => {
-            const marker = L.marker([item.Latitude, item.Longitude]);
+            const marker = L.marker([item.Location.Latitude, item.Location.Longitude]);
             // Customize marker icon, pop-up content, etc.
             marker.bindPopup(
                 `<b>Location Name:</b> ${item["Location Name"]}<br>` +
