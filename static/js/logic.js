@@ -16,7 +16,7 @@ sleep(2000).then(() => {
 
   const courtIcon = L.icon({
     iconUrl: 'static/images/pickleball_court_marker.png', 
-    iconSize: [32, 32], 
+    iconSize: [45, 45], 
     iconAnchor: [16, 32], 
     popupAnchor: [0, -32]
   });
