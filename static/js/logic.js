@@ -1,8 +1,8 @@
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-sleep(2000).then(() => {
+    }
+      
+sleep(2000).then(() => { 
     // JavaScript to initialize the map
     const map = L.map("map", {
         center: [27.96044, -82.30695],
@@ -12,21 +12,11 @@ sleep(2000).then(() => {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
-
-    // Create a marker cluster group for the first set of markers (assuming countyData is available)
-    const countyMarkers = L.markerClusterGroup();
-
-    // Assuming countyData is an array of court locations with latitudes and longitudes
-    for (const location of countyData) {
-        const marker = L.marker([location.latitude, location.longitude]);
-        // You can customize the marker pop-up content here
-        marker.bindPopup(`Court Name: ${location.name}<br>Address: ${location.address}`);
-        countyMarkers.addLayer(marker);
-    }
-
-    map.addLayer(countyMarkers);
-
-    console.log(countyData.length);
+    
+    // L.marker([51.505, -0.09]).addTo(map)
+    //     .bindPopup('A sample location.')
+    //     .openPopup();
+    console.log(countyData.length); 
 });
 
 // Define a variable to store the court data
