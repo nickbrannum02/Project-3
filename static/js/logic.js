@@ -1,7 +1,7 @@
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-    }
-      
+}
+
 sleep(2000).then(() => { 
     // JavaScript to initialize the map
     const map = L.map("map", {
@@ -12,11 +12,26 @@ sleep(2000).then(() => {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
-    
-    // L.marker([51.505, -0.09]).addTo(map)
-    //     .bindPopup('A sample location.')
-    //     .openPopup();
-    console.log(countyData.length); 
+
+    // Assuming you've already loaded your data into countyData, courtsData, and hospitalData
+    const dataSet = [courtsData];
+
+    dataSet.forEach(data => {
+        data.forEach(item => {
+            const marker = L.marker([item.Latitude, item.Longitude]);
+
+            // Customize marker icon, pop-up content, etc.
+            marker.bindPopup(
+                `<b>Location Name:</b> ${item['Location Name']}<br>` +
+                `<b>City:</b> ${item.City}<br>` +
+                `<b>County:</b> ${item.County}<br>` +
+                `<b>Number of Courts:</b> ${item['Number of Courts']}`
+            );
+
+            // Add the marker to the map
+            marker.addTo(map);
+        });
+    });
 });
 
     
