@@ -51,7 +51,7 @@ def courts():
     # Close the database connection
     conn.close()
     # Convert the rows to a list of dictionaries
-    court_data = [{'Location Name': row[0], 'City': row[1], 'Number of Courts': row[2], 'County': row[3], "Latitude": row[4], "Longitude": row[5]} for row in rows]
+    court_data = [{'Location Name': row[0], 'City': row[1], 'Number of Courts': row[2], 'County': row[3], "Location": {"Latitude": row[4], "Longitude": row[5]}} for row in rows]
     # Return the data as JSON
     return jsonify(court_data)
 
@@ -80,7 +80,8 @@ def base_map():
     # Create a cursor object
     cursor = conn.cursor()
     # Execute an SQL query to select all rows from the table
-    sql_query = """SELECT e.County, e.Percent_Elderly, SUM(c.'Number of Courts') AS TotalCourts
+    sql_query = """SELECT e.County, e.Percent_Elderly, SUM(CAST(c."Number of Courts" AS REAL)) AS TotalCourts, 
+                    ROUND((SUM(CAST(c."Number of Courts" AS REAL)) / (e.Total_Population / 10000)),2) AS CourtsPer10kPeople, e.Total_Population
                 FROM elderly_people e
                 JOIN court_location c on e.County = c.County
                 GROUP BY e.County, e.Percent_Elderly"""
@@ -90,7 +91,7 @@ def base_map():
     # Close the database connection
     conn.close()
     # Convert the rows to a list of dictionaries
-    county_data = [{'County': row[0], 'Percent Elderly': row[1], 'Number of Courts': row[2]} for row in rows]
+    county_data = [{'County': row[0], 'Percent Elderly': row[1], 'Number of Courts': row[2], 'Courts per 10,000': row[3], 'Total_Population': row[4]} for row in rows]
     # Return the data as JSON
     return jsonify(county_data)
 
