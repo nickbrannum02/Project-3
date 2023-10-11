@@ -2,7 +2,7 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-sleep(2000).then(() => {
+sleep(1000).then(() => {
   // JavaScript to initialize the map
   const map = L.map("map", {
       center: [27.96044, -82.30695],
