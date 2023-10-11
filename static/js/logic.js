@@ -1,9 +1,10 @@
+// Start function with a pause
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
+//Introduce delay 
 sleep(2000).then(() => {
-  // JavaScript to initialize the map
+  // JavaScript to start the map
   const map = L.map("map", {
       center: [27.96044, -82.30695],
       zoom: 6,
@@ -38,13 +39,14 @@ sleep(2000).then(() => {
           courtMarkers.addLayer(marker);
       });
   });
-
+// Define hospital icon
   const hosIcon = L.icon({
     iconUrl: 'static/images/hospital_marker_icon.png', 
     iconSize: [32, 32], 
     iconAnchor: [16, 32], 
     popupAnchor: [0, -32]
 });
+//Define arrays and complete with lists
 const labels = [];
 const xDataPoints = [];
 const yDataPoints = [];
