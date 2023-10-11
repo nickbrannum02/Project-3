@@ -2,7 +2,7 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-sleep(2000).then(() => {
+sleep(1000).then(() => {
   // JavaScript to initialize the map
   const map = L.map("map", {
       center: [27.96044, -82.30695],
@@ -56,41 +56,6 @@ countyDataSet.forEach((data) => {
         yDataPoints.push(item['Courts per 10,000']);
 
 });
-
-// Calculate linear regression line parameters
-function calculateLinearRegression(xData, yData) {
-    const n = xData.length;
-    let sumX = 0;
-    let sumY = 0;
-    let sumXY = 0;
-    let sumX2 = 0;
-
-    for (let i = 0; i < n; i++) {
-        sumX += xData[i];
-        sumY += yData[i];
-        sumXY += xData[i] * yData[i];
-        sumX2 += xData[i] * xData[i];
-    }
-
-    const slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
-    const intercept = (sumY - slope * sumX) / n;
-
-    return { slope, intercept };
-}
-
-const { slope, intercept } = calculateLinearRegression(xDataPoints, yDataPoints);
-
-const regressionLine = {
-    label: 'Linear Regression',
-    data: [
-        { x: Math.min(...xDataPoints), y: slope * Math.min(...xDataPoints) + intercept },
-        { x: Math.max(...xDataPoints), y: slope * Math.max(...xDataPoints) + intercept },
-    ],
-    backgroundColor: 'rgba(255, 0, 0, 1)',  // Set the line color
-    borderColor: 'rgba(255, 0, 0, 1)',      // Set the line color
-    borderWidth: 2,  // Set the line width
-    fill: false,    // Ensure it's not filled
-};
 
 // Create a scatterplot
 const ctx = document.getElementById('scatterplot').getContext('2d');
