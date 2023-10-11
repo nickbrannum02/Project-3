@@ -70,10 +70,10 @@ new Chart(ctx, {
                 y: yDataPoints[index],
                 label: item.County,
             })),
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
+            backgroundColor: 'rgba(75, 192, 192, 1.0)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1,
-            pointRadius: 5,
+            pointRadius: 8,
         }]
     },
     options: {
