@@ -2,15 +2,14 @@
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-<<<<<<< HEAD
 //Introduce delay 
 sleep(2000).then(() => {
   // JavaScript to start the map
-=======
+
 
 sleep(1000).then(() => {
   // JavaScript to initialize the map
->>>>>>> 9fc00c98766304fd4c035c906747795fc999ffef
+
   const map = L.map("map", {
       center: [27.96044, -82.30695],
       zoom: 6,
@@ -45,6 +44,7 @@ sleep(1000).then(() => {
           courtMarkers.addLayer(marker);
       });
   });
+
 // Define hospital icon
   const hosIcon = L.icon({
     iconUrl: 'static/images/hospital_marker_icon.png', 
@@ -104,6 +104,13 @@ new Chart(ctx, {
             },
         },
     },
+});
+
+  const hosIcon = L.icon({
+  iconUrl: 'static/images/hospital_marker_icon.png', 
+  iconSize: [32, 32], 
+  iconAnchor: [16, 32], 
+  popupAnchor: [0, -32]
 });
 
   // Create a marker cluster group for hospitals
