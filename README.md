@@ -143,17 +143,9 @@ GitLens
        
 
 ### HTML Portion
-- Found the table that contained all the relevant data and saved the table to a variable.
-- Created a variable to store all of the rows with the tag <tr>.
-- Initialized empty lists for the mars data and the titles of the columns for the future dataframe.
-- Initialized a skip variable because the first row contains the headers and needs to be skipped when collecting the mars data.
-- Used a for loop to find all rows with the tag <th> and used another for loop, with an if statement, to append the titles for the columns to the empty list and skip the title for loop if no data was present with the tag <th> in that row.
-- Used to skip variable to skip the first line.
-- Within the first for loop, found all rows with the tag <td>, and started another list so I could compile a list within a list to make dictionary creation easier.
-- Used another for loop to check if the row had data, and if it did have data, appended the text of the row to the newest list or else continue.
-- Once the previous loop was concluded, the newest list was appended to another list called mars_data.
+- Nick might need to comment this portion.
 
 
 
-
-Our group completed a project focused on the relationship between pickleball courts and where older people move to retire, focusing exclusively on the state of Florida as our retirement location. Relationships of interest included:  elderly populations and proximity to pickleball courts and where is the elderly population on the rise within the US and where is it decreasing.Data was gathered primarily from Census.gov data tables  to accurately identify populations of the different counties in Florida and an API from The Global Pickleball Network website to collect data focused on pickleball court locations.  
+## Conclusion
+Our group completed a project focused on the relationship between pickleball courts and where older people move to retire, focusing exclusively on the state of Florida as our retirement location. Relationships of interest included:  elderly populations and proximity to pickleball courts and where is the elderly population on the rise within the US and where is it decreasing. Data was gathered primarily from Census.gov data tables to accurately identify populations of the different counties in Florida and an API from The Global Pickleball Network website to collect data focused on pickleball court locations.  
