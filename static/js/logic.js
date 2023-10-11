@@ -39,12 +39,6 @@ sleep(1000).then(() => {
       });
   });
 
-  const hosIcon = L.icon({
-    iconUrl: 'static/images/hospital_marker_icon.png', 
-    iconSize: [32, 32], 
-    iconAnchor: [16, 32], 
-    popupAnchor: [0, -32]
-});
 const labels = [];
 const xDataPoints = [];
 const yDataPoints = [];
@@ -96,6 +90,13 @@ new Chart(ctx, {
             },
         },
     },
+});
+
+  const hosIcon = L.icon({
+  iconUrl: 'static/images/hospital_marker_icon.png', 
+  iconSize: [32, 32], 
+  iconAnchor: [16, 32], 
+  popupAnchor: [0, -32]
 });
 
   // Create a marker cluster group for hospitals
