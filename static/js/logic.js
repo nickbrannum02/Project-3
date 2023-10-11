@@ -57,24 +57,61 @@ countyDataSet.forEach((data) => {
 
 });
 
+// Calculate linear regression line parameters
+function calculateLinearRegression(xData, yData) {
+    const n = xData.length;
+    let sumX = 0;
+    let sumY = 0;
+    let sumXY = 0;
+    let sumX2 = 0;
+
+    for (let i = 0; i < n; i++) {
+        sumX += xData[i];
+        sumY += yData[i];
+        sumXY += xData[i] * yData[i];
+        sumX2 += xData[i] * xData[i];
+    }
+
+    const slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
+    const intercept = (sumY - slope * sumX) / n;
+
+    return { slope, intercept };
+}
+
+const { slope, intercept } = calculateLinearRegression(xDataPoints, yDataPoints);
+
+const regressionLine = {
+    label: 'Linear Regression',
+    data: [
+        { x: Math.min(...xDataPoints), y: slope * Math.min(...xDataPoints) + intercept },
+        { x: Math.max(...xDataPoints), y: slope * Math.max(...xDataPoints) + intercept },
+    ],
+    backgroundColor: 'rgba(255, 0, 0, 1)',  // Set the line color
+    borderColor: 'rgba(255, 0, 0, 1)',      // Set the line color
+    borderWidth: 2,  // Set the line width
+    fill: false,    // Ensure it's not filled
+};
+
 // Create a scatterplot
 const ctx = document.getElementById('scatterplot').getContext('2d');
 new Chart(ctx, {
     type: 'scatter',
     data: {
-        labels: labels,
-        datasets: [{
-            label: 'County Data',
-            data: countyData.map((item, index) => ({
-                x: xDataPoints[index],
-                y: yDataPoints[index],
-                label: item.County,
-            })),
-            backgroundColor: 'rgba(75, 192, 192, 0.5)',
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1,
-            pointRadius: 5,
-        }]
+        datasets: [
+            {
+                label: 'County Data',
+                data: countyData.map((item, index) => ({
+                    x: xDataPoints[index],
+                    y: yDataPoints[index],
+                    label: item.County,
+                })),
+                backgroundColor: 'rgba(75, 192, 192, 1)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1,
+                pointRadius: 5,
+            },
+            regressionLine, // Add the regression line dataset
+        ],
     },
     options: {
         scales: {
@@ -82,18 +119,18 @@ new Chart(ctx, {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Percent Elderly'
-                }
+                    text: 'Percent Elderly',
+                },
             },
             y: {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Courts per 10,000'
-                }
-            }
-        }
-    }
+                    text: 'Courts per 10,000',
+                },
+            },
+        },
+    },
 });
 
   // Create a marker cluster group for hospitals
