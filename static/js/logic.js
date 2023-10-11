@@ -141,7 +141,7 @@ new Chart(ctx, {
           const hosMarker = L.marker([item.Latitude, item.Longitude], {icon: hosIcon});
           // Customize marker icon, pop-up content, etc.
           hosMarker.bindPopup(
-              `<b>Location Name:</b> ${item["Location Name"]}<br>` +
+              `<b>Location Name:</b> ${item["Name"]}<br>` +
               `<b>City:</b> ${item.City}<br>` +
               `<b>County:</b> ${item.County}<br>`
           );
