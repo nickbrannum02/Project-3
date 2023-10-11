@@ -143,7 +143,13 @@ GitLens
        
 
 ### HTML Portion
-- Nick might need to comment this portion.
+- The head section of index.html sets up the cluster markers, the icons, and the leaflet CSS styling.
+- The body set the background to gray and set up the IDs for the map and scatterplot.
+- There is a section of fun facts about pickleball followed by two visualizations from Google trends that are embedded.
+
+
+
+
 
 
 
