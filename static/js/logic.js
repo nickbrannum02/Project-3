@@ -105,7 +105,7 @@ new Chart(ctx, {
         },
     },
 });
-
+// Create customized markers for hospitals
   const hosIcon = L.icon({
   iconUrl: 'static/images/hospital_marker_icon.png', 
   iconSize: [32, 32], 
