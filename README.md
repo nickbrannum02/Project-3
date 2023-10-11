@@ -143,15 +143,15 @@ GitLens
        
 
 ### HTML Portion
-- The head section of index.html sets up the cluster markers, the icons, and the leaflet CSS styling.
-- The body set the background to gray and set up the IDs for the map and scatterplot.
-- There is a section of fun facts about pickleball followed by two visualizations from Google trends that are embedded.
+- The head section of index.html conatains the links to the needed stylesheets to have the leaflet map displayed correctly as well as the styling for the later containers to make sure information is displayed with the correct margins and location.
+- The body section styled the whole of the webpage to have a gray background with white text throughout the whole document. 
+- The body begins with our leaflet map first to ensure the map is the first thing the eye is drawn to. Below that we have the scatterplot that helps visualize the percentage of elderly population in relation to the number of pickleball courts per 10,000 people
 
 ![image](https://github.com/nickbrannum02/Project-3/assets/132176159/90f61006-2832-4e44-9733-c923f9fbb242)
 
--  Added information about the court and equipment for pickleball.
--  Source information is listed.
--  All of the scripts for Javascript Integreation are added.
+-  The next eye catching portion of the body is the google trends graphs that, using code provided from the Google trends site, show the interest by state and the interest in pickleball as a whole with the graphs using live data and will update as Google Trends get's updated information
+-  The last visible part of the body section is where our sources are linked, as we used many sources for our information we made sure to link them at the bottom of the document so they're out of the way but visible if needing to be accessed.
+-  To finish off the index.html is our scripts that were used to integrate our JavaScript files to connect the visual map and plots to our JavaScript files.
 
 
 ## Conclusion
