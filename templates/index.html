@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
     <style>
-        /* CSS for styling the map and description */
+        /* styling for div groups */
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
@@ -43,15 +43,20 @@
         }
     </style>
 </head>
+
+
 <body style="background-color: gray; color:white;">
     <h1>Pickleball Court Locations in Relation to Elderly Population</h1>
     
+    <!-- container for leaflet map --> 
     <div id="map"></div>
 
+    <!-- container for scatterplot -->
     <div style="width: 80%; margin: 0 auto; background-color: white; margin-left: 0; margin-right:auto;">
         <canvas id="scatterplot" width="600" height="150"></canvas>
     </div>
 
+    <!-- description/facts section -->
     <div class="description">
         <h2>Fun Facts About Pickleball and Florida's Elderly Population</h2>
 
@@ -70,6 +75,8 @@
             <br> 10. Interest in pickleball has increased 467% over the past 5 years as measured by Google Trends, Utah is the state showing the most interest in pickleball currently. <br>
             
         </p>
+
+        <!-- Container for embedding google trends graphs -->
         <div class="google-container">
             <div class="google-interest-area">
                 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
@@ -80,6 +87,8 @@
             </div>
         </div>
 
+
+        <!-- container for additional information -->
         <div class="details">
             <br>
             <h2>Pickleball Court and Equipment Information</h2>
@@ -106,8 +115,11 @@
         </div>
     </div>
 
+    <!-- leaflet cluster script import -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.0/leaflet.markercluster.js"></script>
 
+
+    <!-- container for used sources -->
     <div class="sources">
         <br><br><br>
         <h3>Sources</h3>
@@ -116,9 +128,12 @@
             <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=">https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=</a><br>
             <a href="https://www.livebayside.com/10-little-known-facts-pickleball/">https://www.livebayside.com/10-little-known-facts-pickleball/</a><br>
             <a href="https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.">https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.</a><br>
-            <a href="https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts">https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts</a>
+            <a href="https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts">https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts</a><br>
+            <a href="https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=pickleball&hl=en-US">https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=pickleball&hl=en-US</a><br>
         </p>
     </div>  
+
+    <!-- final scripts used for js integration -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
