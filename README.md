@@ -147,10 +147,11 @@ GitLens
 - The body set the background to gray and set up the IDs for the map and scatterplot.
 - There is a section of fun facts about pickleball followed by two visualizations from Google trends that are embedded.
 
+![image](https://github.com/nickbrannum02/Project-3/assets/132176159/90f61006-2832-4e44-9733-c923f9fbb242)
 
-
-
-
+-  Added information about the court and equipment for pickleball.
+-  Source information is listed.
+-  All of the scripts for Javascript Integreation are added.
 
 
 ## Conclusion
