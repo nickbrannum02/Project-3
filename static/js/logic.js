@@ -73,7 +73,7 @@ new Chart(ctx, {
             backgroundColor: 'rgba(75, 192, 192, 1.0)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1,
-            pointRadius: 8,
+            pointRadius: 4,
         }]
 
     },
