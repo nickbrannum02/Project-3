@@ -3,11 +3,8 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 //Introduce delay 
-sleep(2000).then(() => {
-  // JavaScript to start the map
-
-
 sleep(1000).then(() => {
+
   // JavaScript to initialize the map
 
   const map = L.map("map", {
@@ -45,13 +42,7 @@ sleep(1000).then(() => {
       });
   });
 
-// Define hospital icon
-  const hosIcon = L.icon({
-    iconUrl: 'static/images/hospital_marker_icon.png', 
-    iconSize: [32, 32], 
-    iconAnchor: [16, 32], 
-    popupAnchor: [0, -32]
-});
+
 //Define arrays and complete with lists
 const labels = [];
 const xDataPoints = [];
