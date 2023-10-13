@@ -74,7 +74,7 @@ Valencia Bay,Boynton Beach,6 courts,Palm Beach,26.525,-80.0666
 Valencia Cove,Boynton Beach,4 courts,Palm Beach,26.525,-80.0666
 Valencia Reserve Club,Boynton Beach,4 courts,Palm Beach,26.525,-80.0666
 Valencia Pointe Club,Boynton Beach,4 courts,Palm Beach,26.525,-80.0666
-Boynton Beach Tennis Center,Boynton Beach,4 courts,Palm Beach,26.525,-80.0666
+Boynton Beach Tennis Center,Boynton Beach,6 courts,Palm Beach,26.525,-80.0666
 Caloosa Park,Boynton Beach,8 courts,Palm Beach,26.525,-80.0666
 Bradenton Tropical Palms,Bradenton,3 courts,Manatee,27.502778,-82.513889
 The Racquet Club El Conquistador,Bradenton,6 courts,Manatee,27.502778,-82.513889
@@ -132,8 +132,8 @@ Henry L. McMullen Tennis Complex,Clearwater,6 courts,Pinellas,27.9799,-82.7806
 Ed Wright Park,Clearwater,2 courts,Pinellas,27.9799,-82.7806
 Island In The Sun,Clearwater,2 courts,Pinellas,27.9799,-82.7806
 Woodgate Park,Clearwater,2 courts,Pinellas,27.9799,-82.7806
-Greenwood Recreation Center,Clearwater,2 courts,Pinellas,27.9799,-82.7806
 McKay Play Field,Clearwater,4 courts,Pinellas,27.9799,-82.7806
+Greenwood Recreation Center,Clearwater,2 courts,Pinellas,27.9799,-82.7806
 Morningside Recreation Complex,Clearwater,4 courts,Pinellas,27.9799,-82.7806
 Lake Magic RV Resort,Clermont,3 courts,Lake,28.552541,-81.757407
 Thousand Trails Rv Preserve,Clermont,8 courts,Lake,28.552541,-81.757407
@@ -160,31 +160,31 @@ Crescent City Park,Crescent City,2 courts,Putnam,29.445438,-81.557909
 Crescent City Junior/Senior Hogh,Crescent City,4 courts,Putnam,29.445438,-81.557909
 Twin Hills Park,Crestview,6 courts,Okaloosa,30.77061,-86.553678
 Jim LeGrone Memorial Park,Crystal River,4 courts,Citrus,28.9593,-82.6259
-Meadowcrest - Lower Courts,Crystal River,4 courts,Citrus,28.9593,-82.6259
 Bicentennial Park,Crystal River,2 courts,Citrus,28.9593,-82.6259
+Meadowcrest - Lower Courts,Crystal River,4 courts,Citrus,28.9593,-82.6259
 Saga Bay Park,Cutler Bay,4 courts,Miami-Dade,25.5808,-80.3469
+Travelers Rest RV and Golf Resort,Dade City,7 courts,Pasco,28.4297,-82.2082
+Dade City Armory,Dade City,3 courts,Pasco,28.4297,-82.2082
+Price Park,Dade City,2 courts,Pasco,28.4297,-82.2082
 Lake Jovita Golf And Country Club,Dade City,4 courts,Pasco,28.4297,-82.2082
 Academy at the Farm,Dade City,0 courts,Pasco,28.4297,-82.2082
-Travelers Rest RV and Golf Resort,Dade City,7 courts,Pasco,28.4297,-82.2082
-Price Park,Dade City,2 courts,Pasco,28.4297,-82.2082
-Dade City Armory,Dade City,3 courts,Pasco,28.4297,-82.2082
-Tom Fellows Community Center,Davenport,6 courts,Polk,28.22,-81.6205
 Ridgewood Lakes,Davenport,6 courts,Polk,28.22,-81.6205
 Del Webb Orlando,Davenport,6 courts,Polk,28.22,-81.6205
 Deer Creek Rv And Golf Resort,Davenport,2 courts,Polk,28.22,-81.6205
+Tom Fellows Community Center,Davenport,6 courts,Polk,28.22,-81.6205
 Pine Island Park,Davie,6 courts,Broward,26.0765,-80.2521
-Sica Hall Community Center,Daytona Beach,2 courts,Volusia,29.201168,-81.037071
-Halifax River Yacht Club,Daytona Beach,4 courts,Volusia,29.201168,-81.037071
-Pictona at Holly Hill,Daytona Beach,49 courts,Volusia,29.201168,-81.037071
-Schnebly Recreation Center,Daytona Beach,1 court,Volusia,29.201168,-81.037071
-Mainland High School,Daytona Beach,6 courts,Volusia,29.201168,-81.037071
 Pelican Bay Sports Club,Daytona Beach,4 courts,Volusia,29.201168,-81.037071
-The Salvation Army Daytona Beach,Daytona Beach,2 courts,Volusia,29.201168,-81.037071
-Embry-Riddle Aeronautical University - Daytona Beach,Daytona Beach,6 courts,Volusia,29.201168,-81.037071
-Midtown Cultural & Educational Center,Daytona Beach,3 courts,Volusia,29.201168,-81.037071
-Latitude Margaritaville Daytona Beach,Daytona Beach,10 courts,Volusia,29.201168,-81.037071
 Mcelroy Park,Daytona Beach,10 courts,Volusia,29.201168,-81.037071
+Halifax River Yacht Club,Daytona Beach,4 courts,Volusia,29.201168,-81.037071
+Latitude Margaritaville Daytona Beach,Daytona Beach,10 courts,Volusia,29.201168,-81.037071
+Midtown Cultural & Educational Center,Daytona Beach,3 courts,Volusia,29.201168,-81.037071
+Sica Hall Community Center,Daytona Beach,2 courts,Volusia,29.201168,-81.037071
+Schnebly Recreation Center,Daytona Beach,1 court,Volusia,29.201168,-81.037071
+Embry-Riddle Aeronautical University - Daytona Beach,Daytona Beach,6 courts,Volusia,29.201168,-81.037071
+The Salvation Army Daytona Beach,Daytona Beach,2 courts,Volusia,29.201168,-81.037071
+Pictona at Holly Hill,Daytona Beach,49 courts,Volusia,29.201168,-81.037071
 Derbyshire Park,Daytona Beach,4 courts,Volusia,29.201168,-81.037071
+Mainland High School,Daytona Beach,6 courts,Volusia,29.201168,-81.037071
 Bill Keller Park,DeBary,2 courts,Volusia,28.8713,-81.3289
 Victoria Gardens - 55+ Community,DeLand,8 courts,Volusia,29.02659,-81.334853
 David E Disney Tennis Center,DeLand,6 courts,Volusia,29.02659,-81.334853
@@ -215,55 +215,55 @@ Buck Destin Park,Destin,2 courts,Okaloosa,30.392,-86.4834
 Destin Community Center,Destin,3 courts,Okaloosa,30.392,-86.4834
 Destin United Methodist Church,Destin,4 courts,Okaloosa,30.392,-86.4834
 Island Oasis Pickleball Cub,Donner,52 courts,Duval,30.3369,-81.4115
-Dunedin Community Center,Dunedin,2 courts,Pinellas,28.019444,-82.771944
-Eagle Scout Park,Dunedin,2 courts,Pinellas,28.019444,-82.771944
 Highlander Park & Aquatic Complex,Dunedin,4 courts,Pinellas,28.019444,-82.771944
+Dunedin Community Center,Dunedin,2 courts,Pinellas,28.019444,-82.771944
 "Martin Luther King, Jr. Recreation Center",Dunedin,2 courts,Pinellas,28.019444,-82.771944
-Ernie Mills Park,Dunnellon,1 court,Marion,29.0488,-82.4611
+Eagle Scout Park,Dunedin,2 courts,Pinellas,28.019444,-82.771944
 Spruce Creek Preserve,Dunnellon,4 courts,Marion,29.0488,-82.4611
+Ernie Mills Park,Dunnellon,1 court,Marion,29.0488,-82.4611
 Hacienda Del Rio,Edgewater,4 courts,Volusia,28.981801,-80.910344
-Park Forest Courts,Englewood,2 courts,Sarasota,26.966743,-82.359886
-Englewood Florida YMCA,Englewood,4 courts,Sarasota,26.966743,-82.359886
-Pickle in Paradise,Englewood,1 court,Sarasota,26.966743,-82.359886
-Boca Royale Racquet Club,Englewood,4 courts,Sarasota,26.966743,-82.359886
-Tringali Recreation Center,Englewood,4 courts,Sarasota,26.966743,-82.359886
 Ann & Chuck Dever Regional Park Rec Center,Englewood,12 courts,Sarasota,26.966743,-82.359886
+Pickle in Paradise,Englewood,1 court,Sarasota,26.966743,-82.359886
+Tringali Recreation Center,Englewood,4 courts,Sarasota,26.966743,-82.359886
 Englewood Sports Complex,Englewood,18 courts,Sarasota,26.966743,-82.359886
 Tringali Park,Englewood,16 courts,Sarasota,26.966743,-82.359886
+Englewood Florida YMCA,Englewood,4 courts,Sarasota,26.966743,-82.359886
+Boca Royale Racquet Club,Englewood,4 courts,Sarasota,26.966743,-82.359886
+Park Forest Courts,Englewood,2 courts,Sarasota,26.966743,-82.359886
+Bella Terra Community,Estero,6 courts,Lee,26.435052,-81.810244
+West Bay Club,Estero,4 courts,Lee,26.435052,-81.810244
+Breckenridge Golf and Tennis,Estero,3 courts,Lee,26.435052,-81.810244
 The Place at Corkscrew by Cameratta Companies,Estero,8 courts,Lee,26.435052,-81.810244
 Estero Community Park,Estero,3 courts,Lee,26.435052,-81.810244
-Bella Terra Community,Estero,6 courts,Lee,26.435052,-81.810244
-Breckenridge Golf and Tennis,Estero,3 courts,Lee,26.435052,-81.810244
 The island Club H.O.A.,Estero,4 courts,Lee,26.435052,-81.810244
-West Bay Club,Estero,4 courts,Lee,26.435052,-81.810244
 Pine Meadows Conservation Area,Eustis,6 courts,Lake,28.857686,-81.64513
-Ocean Coast Hotel Pickleball Courts,Fernandina Beach,4 courts,Nassau,30.635388,-81.468829
 Omni Amelia Island Resort,Fernandina Beach,7 courts,Nassau,30.635388,-81.468829
+Ocean Coast Hotel Pickleball Courts,Fernandina Beach,4 courts,Nassau,30.635388,-81.468829
+Shipwatch Villas,Fernandina Beach,1 court,Nassau,30.635388,-81.468829
 Central Park Pickleball Courts,Fernandina Beach,6 courts,Nassau,30.635388,-81.468829
 "North Hampton Association, Inc.",Fernandina Beach,2 courts,Nassau,30.635388,-81.468829
-The Journey Church Yulee,Fernandina Beach,4 courts,Nassau,30.635388,-81.468829
 Atlantic Recreational Center,Fernandina Beach,6 courts,Nassau,30.635388,-81.468829
-Shipwatch Villas,Fernandina Beach,1 court,Nassau,30.635388,-81.468829
-Wadsworth Park,Flagler Beach,2 courts,Flagler,29.474978,-81.130288
+The Journey Church Yulee,Fernandina Beach,4 courts,Nassau,30.635388,-81.468829
 Wickline Park,Flagler Beach,2 courts,Flagler,29.474978,-81.130288
+Wadsworth Park,Flagler Beach,2 courts,Flagler,29.474978,-81.130288
 Barco-Newton YMCA,Fleming Island,2 courts,Clay,30.107,-81.7167
 Palmetto Park,Florahome,2 courts,Putnam,29.758105,-81.862224
 RiverBend RV Resort,Fort Denaud,8 courts,Hendry,26.7455,-81.4668
-Bass Park,Fort Lauderdale,1 court,Broward,26.121561,-80.128778
-Florence C Hardy Park,Fort Lauderdale,2 courts,Broward,26.121561,-80.128778
-Holiday Park,Fort Lauderdale,6 courts,Broward,26.121561,-80.128778
-Riverside Park,Fort Lauderdale,1 court,Broward,26.121561,-80.128778
+Plantation Central Park,Fort Lauderdale,17 courts,Broward,26.121561,-80.128778
 George English Park,Fort Lauderdale,6 courts,Broward,26.121561,-80.128778
 Joseph C. Carter Park,Fort Lauderdale,3 courts,Broward,26.121561,-80.128778
-Plantation Central Park,Fort Lauderdale,17 courts,Broward,26.121561,-80.128778
-Osswald Park,Fort Lauderdale,4 courts,Broward,26.121561,-80.128778
-Sunrise Middle School,Fort Lauderdale,14 courts,Broward,26.121561,-80.128778
-Park on SW 112th Ter,Fort Lauderdale,2 courts,Broward,26.121561,-80.128778
 Benenson Park,Fort Lauderdale,8 courts,Broward,26.121561,-80.128778
+Riverside Park,Fort Lauderdale,1 court,Broward,26.121561,-80.128778
+Bass Park,Fort Lauderdale,1 court,Broward,26.121561,-80.128778
+Florence C Hardy Park,Fort Lauderdale,2 courts,Broward,26.121561,-80.128778
+Park on SW 112th Ter,Fort Lauderdale,2 courts,Broward,26.121561,-80.128778
+Osswald Park,Fort Lauderdale,4 courts,Broward,26.121561,-80.128778
+Holiday Park,Fort Lauderdale,6 courts,Broward,26.121561,-80.128778
+Sunrise Middle School,Fort Lauderdale,14 courts,Broward,26.121561,-80.128778
 Salt Springs Civic Association Park,Fort McCoy,4 courts,Marion,29.279554,-81.887757
-Fort Myers YMCA,Fort Myers,2 courts,Lee,26.620403,-81.8725
-The Club at Crystal Lake,Fort Myers,2 courts,Lee,26.620403,-81.8725
 The Forest Country Club,Fort Myers,6 courts,Lee,26.620403,-81.8725
+The Club at Crystal Lake,Fort Myers,2 courts,Lee,26.620403,-81.8725
+Fort Myers YMCA,Fort Myers,2 courts,Lee,26.620403,-81.8725
 Fort Myers Racquet Club,Fort Myers,6 courts,Lee,26.620403,-81.8725
 "Landings Yacht, Golf and Tennis Club",Fort Myers,8 courts,Lee,26.620403,-81.8725
 Cinnamon Cove,Fort Myers,2 courts,Lee,26.620403,-81.8725
@@ -466,47 +466,47 @@ Candyland Park,Longwood,6 courts,Seminole,28.711994,-81.355238
 Sweetwater Oaks Club,Longwood,8 courts,Seminole,28.711994,-81.355238
 Paradise Lakes Resort,Lutz,4 courts,Hillsborough,28.143,-82.4752
 The Club at Cheval,Lutz,4 courts,Hillsborough,28.143,-82.4752
-Nye Park,Lutz,2 courts,Hillsborough,28.143,-82.4752
 Lake Como Family Nudist Resort,Lutz,5 courts,Hillsborough,28.143,-82.4752
+Nye Park,Lutz,2 courts,Hillsborough,28.143,-82.4752
 Lynn Haven Sports Complex,Lynn Haven,8 courts,Bay,30.236165,-85.646658
 Madison Recreation Complex,Madison,2 courts,Madison,30.480209,-83.406678
-Church of God Family Life Center,Madison,2 courts,Madison,30.480209,-83.406678
 Madison RV & Golf Resort,Madison,4 courts,Madison,30.480209,-83.406678
+Church of God Family Life Center,Madison,2 courts,Madison,30.480209,-83.406678
 City of Maitland - Minnehaha Park,Maitland,4 courts,Orange,28.631284,-81.354598
 Hawks Cay Resort,Marathon,8 courts,Monroe,24.727919,-81.038581
 Marco Island Racquet Center,Marco Island,7 courts,Collier,25.9392,-81.7174
 The Greater Marco Family YMCA,Marco Island,9 courts,Collier,25.9392,-81.7174
 Marianna K-8 School,Marianna,3 courts,Jackson,30.758587,-85.229367
 Marianna Pickleball - Chipola College Courts,Marianna,6 courts,Jackson,30.758587,-85.229367
-Heritage Isle Club,Melbourne,4 courts,Brevard,28.069132,-80.620015
-Sandhill Park,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Holiday Springs POA,Melbourne,1 court,Brevard,28.069132,-80.620015
-Joseph N. Davis Community Center,Melbourne,3 courts,Brevard,28.069132,-80.620015
-Addison Village Club,Melbourne,2 courts,Brevard,28.069132,-80.620015
-Health First,Melbourne,1 court,Brevard,28.069132,-80.620015
-Max Rodes Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Viera High School,Melbourne,8 courts,Brevard,28.069132,-80.620015
-Westwind Park,Melbourne,2 courts,Brevard,28.069132,-80.620015
-Bryant Adams Park,Melbourne,2 courts,Brevard,28.069132,-80.620015
-Jimmy Moore Sarno Tennis Complex,Melbourne,12 courts,Brevard,28.069132,-80.620015
-Wickham Park Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Palm Bay High School,Melbourne,2 courts,Brevard,28.069132,-80.620015
+Health First,Melbourne,1 court,Brevard,28.069132,-80.620015
+Jimmy Moore Sarno Tennis Complex,Melbourne,12 courts,Brevard,28.069132,-80.620015
+Viera Regional Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
+Max Rodes Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Palmetto Park,Melbourne,2 courts,Brevard,28.069132,-80.620015
+Addison Village Club,Melbourne,2 courts,Brevard,28.069132,-80.620015
+Sandhill Park,Melbourne,4 courts,Brevard,28.069132,-80.620015
+Joseph N. Davis Community Center,Melbourne,3 courts,Brevard,28.069132,-80.620015
 Lamplighter Village,Melbourne,8 courts,Brevard,28.069132,-80.620015
+Bryant Adams Park,Melbourne,2 courts,Brevard,28.069132,-80.620015
+Westwind Park,Melbourne,2 courts,Brevard,28.069132,-80.620015
+Wickham Park Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
+Heritage Isle Club,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Eau Gallie Civic Center,Melbourne,2 courts,Brevard,28.069132,-80.620015
 Veterans Memorial Complex,Melbourne,6 courts,Brevard,28.069132,-80.620015
-Viera Regional Community Center,Melbourne,4 courts,Brevard,28.069132,-80.620015
 Flutie Sports Complex,Melbourne Beach,2 courts,Brevard,28.021923,-80.538936
 South Beach Community Center,Melbourne Beach,2 courts,Brevard,28.021923,-80.538936
-Kiwanis Island Park,Merritt Island,8 courts,Brevard,28.328607,-80.67818
 Mitchell Ellington Park,Merritt Island,2 courts,Brevard,28.328607,-80.67818
-Kelly Park West,Merritt Island,2 courts,Brevard,28.328607,-80.67818
+Kiwanis Island Park,Merritt Island,8 courts,Brevard,28.328607,-80.67818
 Kiwanis Island,Merritt Island,4 courts,Brevard,28.328607,-80.67818
 Woody Simpson Community Center,Merritt Island,4 courts,Brevard,28.328607,-80.67818
+Kelly Park West,Merritt Island,2 courts,Brevard,28.328607,-80.67818
 Sugar Sands Pickleball Club,Mexico Beach,5 courts,Bay,29.947778,-85.418056
 DETA Pickleball Club,Miami,16 courts,Miami-dade,25.779,-80.1982
-Jose Marti Park Indoor Pickleball,Miami,4 courts,Miami-dade,25.779,-80.1982
 Aventura Community Center,Miami,4 courts,Miami-dade,25.779,-80.1982
+Jose Marti Park Indoor Pickleball,Miami,4 courts,Miami-dade,25.779,-80.1982
 Riviera Tennis Center,Miami,8 courts,Miami-dade,25.779,-80.1982
 Water Oaks Park,Miami,8 courts,Miami-dade,25.779,-80.1982
 Tropical Park,Miami,4 courts,Miami-dade,25.779,-80.1982
@@ -577,317 +577,318 @@ Detwiler Park,New Smyrna Beach,5 courts,Volusia,29.024672,-80.958436
 Live Oak Cultural Center,New Smyrna Beach,3 courts,Volusia,29.024672,-80.958436
 Niceville Senior,Niceville,5 courts,Okaloosa,30.495771,-86.41446
 Bluewater Bay,Niceville,6 courts,Okaloosa,30.495771,-86.41446
+Laurel Park,Nokomis,6 courts,Sarasota,27.118889,-82.444444
 Sun N Fun RV Resort,Nokomis,16 courts,Sarasota,27.118889,-82.444444
 Aria,Nokomis,4 courts,Sarasota,27.118889,-82.444444
 Nokomis Community Park,Nokomis,4 courts,Sarasota,27.118889,-82.444444
-Laurel Park,Nokomis,6 courts,Sarasota,27.118889,-82.444444
-Fountain View RV,North Fort Myers,2 courts,Lee,26.678138,-81.909632
-Bay Pointe Blvd,North Fort Myers,4 courts,Lee,26.678138,-81.909632
-Pine Lakes Estates,North Fort Myers,2 courts,Lee,26.678138,-81.909632
 North Fort Myers Park and Recreation Center,North Fort Myers,3 courts,Lee,26.678138,-81.909632
+Pine Lakes Estates,North Fort Myers,2 courts,Lee,26.678138,-81.909632
+Fountain View RV,North Fort Myers,2 courts,Lee,26.678138,-81.909632
 Heron's Glen,North Fort Myers,4 courts,Lee,26.678138,-81.909632
+Bay Pointe Blvd,North Fort Myers,4 courts,Lee,26.678138,-81.909632
+George Mullen Activity Center,North Port,3 courts,Sarasota,27.0781,-82.1735
+Mckibben Park,North Port,1 court,Sarasota,27.0781,-82.1735
 IslandWalk at the West Villages - South Courts,North Port,8 courts,Sarasota,27.0781,-82.1735
 Highland Ridge Park,North Port,6 courts,Sarasota,27.0781,-82.1735
-Mckibben Park,North Port,1 court,Sarasota,27.0781,-82.1735
-George Mullen Activity Center,North Port,3 courts,Sarasota,27.0781,-82.1735
 Talon Bay,North Port,2 courts,Sarasota,27.0781,-82.1735
 Harold Radcliffe Park,North Redington Beach,2 courts,Pinellas,27.8161,-82.8207
 Sandpiper Bay Resort,North River Shores,6 courts,Martin,27.2175,-80.2698
 Easterlin Park,Oakland Park,1 court,Broward,26.1723,-80.132
 Wimberly Fields Park,Oakland Park,5 courts,Broward,26.1723,-80.132
 Set Point Garden Apartments,Oakland Park,3 courts,Broward,26.1723,-80.132
-Marion Oaks Community Center,Ocala,2 courts,Marion,29.1981,-82.0974
-On Top of the World - Recreation,Ocala,12 courts,Marion,29.1981,-82.0974
-Ocala Preserve,Ocala,6 courts,Marion,29.1981,-82.0974
 Ocala Palms,Ocala,3 courts,Marion,29.1981,-82.0974
-Coehadjoe Park,Ocala,8 courts,Marion,29.1981,-82.0974
-Oak Run,Ocala,4 courts,Marion,29.1981,-82.0974
-Tuscawilla Park,Ocala,6 courts,Marion,29.1981,-82.0974
-Stone Creek Courts,Ocala,8 courts,Marion,29.1981,-82.0974
-Villas of Spanish Oaks,Ocala,2 courts,Marion,29.1981,-82.0974
-Frank DeLuca YMCA,Ocala,7 courts,Marion,29.1981,-82.0974
-Club Fore Ranch,Ocala,2 courts,Marion,29.1981,-82.0974
+On Top of the World - Recreation,Ocala,12 courts,Marion,29.1981,-82.0974
 On Top Of The World - Weybourne,Ocala,6 courts,Marion,29.1981,-82.0974
+Frank DeLuca YMCA,Ocala,7 courts,Marion,29.1981,-82.0974
+Ocala Preserve,Ocala,6 courts,Marion,29.1981,-82.0974
+Oak Run,Ocala,4 courts,Marion,29.1981,-82.0974
+Marion Oaks Community Center,Ocala,2 courts,Marion,29.1981,-82.0974
+Stone Creek Courts,Ocala,8 courts,Marion,29.1981,-82.0974
+Tuscawilla Park,Ocala,6 courts,Marion,29.1981,-82.0974
+Villas of Spanish Oaks,Ocala,2 courts,Marion,29.1981,-82.0974
+Coehadjoe Park,Ocala,8 courts,Marion,29.1981,-82.0974
+Club Fore Ranch,Ocala,2 courts,Marion,29.1981,-82.0974
 Keystone Park & Recreation Center,Odessa,4 courts,Hillsborough,28.142072,-82.590506
 Silver Palms RV Village,Okeechobee,10 courts,Okeechobee,27.311532,-80.847853
 KOA Kampgrounds of America,Okeechobee,4 courts,Okeechobee,27.311532,-80.847853
-Bicentennial Park,Oldsmar,3 courts,Pinellas,28.046035,-82.684778
-East Lake Woodlands Country Club,Oldsmar,12 courts,Pinellas,28.046035,-82.684778
 Tampa Bay Pickleball,Oldsmar,6 courts,Pinellas,28.046035,-82.684778
+Bicentennial Park,Oldsmar,3 courts,Pinellas,28.046035,-82.684778
 Cypress Forest Recreation Center,Oldsmar,2 courts,Pinellas,28.046035,-82.684778
-Dye Clay YMCA,Orange Park,3 courts,Clay,30.1044,-81.7145
+East Lake Woodlands Country Club,Oldsmar,12 courts,Pinellas,28.046035,-82.684778
 Orange Park Sports & Recreation Park,Orange Park,2 courts,Clay,30.1044,-81.7145
 Oakleaf Village Fitness Center,Orange Park,2 courts,Clay,30.1044,-81.7145
-Dover Shores Community Center,Orlando,6 courts,Orange,28.539882,-81.372668
-Avalon Park,Orlando,2 courts,Orange,28.539882,-81.372668
-Laureate Park Pickleball,Orlando,4 courts,Orange,28.539882,-81.372668
-Downey Park,Orlando,8 courts,Orange,28.539882,-81.372668
-ClearOne Sports Centre,Orlando,13 courts,Orange,28.539882,-81.372668
+Dye Clay YMCA,Orange Park,3 courts,Clay,30.1044,-81.7145
+OCPS ACE School,Orlando,2 courts,Orange,28.539882,-81.372668
+Orlando Tennis Centre,Orlando,4 courts,Orange,28.539882,-81.372668
 Disney's Animal Kingdom Villas - Kidani Village,Orlando,1 court,Orange,28.539882,-81.372668
+USTA National Campus - Lake Nona,Orlando,99 courts,Orange,28.539882,-81.372668
+East Park Pickleball Courts,Orlando,4 courts,Orange,28.539882,-81.372668
+Rouse Road POP Courts,Orlando,"3,733 courts",Orange,28.539882,-81.372668
+Avalon Park,Orlando,2 courts,Orange,28.539882,-81.372668
+Pickle X,Orlando,2 courts,Orange,28.539882,-81.372668
+South Econ Magic Gym,Orlando,6 courts,Orange,28.539882,-81.372668
+Lake Nona Performance Club,Orlando,3 courts,Orange,28.539882,-81.372668
+Levitt & Sons Avalon Park Rec,Orlando,4 courts,Orange,28.539882,-81.372668
+Dover Shores Community Center,Orlando,6 courts,Orange,28.539882,-81.372668
+Orlando Racket Sports Center,Orlando,9 courts,Orange,28.539882,-81.372668
+Bay Lake Tower at Disney's Contemporary Resort,Orlando,1 court,Orange,28.539882,-81.372668
 Dr Phillips YMCA,Orlando,6 courts,Orange,28.539882,-81.372668
 Ace Cafe Orlando,Orlando,3 courts,Orange,28.539882,-81.372668
-USTA National Campus - Lake Nona,Orlando,99 courts,Orange,28.539882,-81.372668
-OCPS ACE School,Orlando,2 courts,Orange,28.539882,-81.372668
-Lake Nona Performance Club,Orlando,3 courts,Orange,28.539882,-81.372668
-Pickle X,Orlando,2 courts,Orange,28.539882,-81.372668
-Orlando Racket Sports Center,Orlando,9 courts,Orange,28.539882,-81.372668
-East Park Pickleball Courts,Orlando,4 courts,Orange,28.539882,-81.372668
-South Econ Magic Gym,Orlando,6 courts,Orange,28.539882,-81.372668
-Levitt & Sons Avalon Park Rec,Orlando,4 courts,Orange,28.539882,-81.372668
-Bay Lake Tower at Disney's Contemporary Resort,Orlando,1 court,Orange,28.539882,-81.372668
-Orlando Tennis Centre,Orlando,4 courts,Orange,28.539882,-81.372668
+ClearOne Sports Centre,Orlando,13 courts,Orange,28.539882,-81.372668
+Downey Park,Orlando,8 courts,Orange,28.539882,-81.372668
+Laureate Park Pickleball,Orlando,4 courts,Orange,28.539882,-81.372668
 Scottsmoor at Halifax Plantation,Ormond Beach,2 courts,Volusia,29.2855,-81.0561
 Nova Community Center,Ormond Beach,6 courts,Volusia,29.2855,-81.0561
 Plantation Bay Golf & Country Club,Ormond Beach,4 courts,Volusia,29.2855,-81.0561
 Hidden Bay,Osprey,2 courts,Sarasota,27.18384,-82.485339
 Remington Park,Oviedo,4 courts,Seminole,28.669722,-81.208333
-Oviedo Gymnasium and Aquatic Facility,Oviedo,2 courts,Seminole,28.669722,-81.208333
 Oviedo Pickleball Training Center,Oviedo,1 court,Seminole,28.669722,-81.208333
 Round Lake Park,Oviedo,10 courts,Seminole,28.669722,-81.208333
-Simple Life - Lakeshore,Oxford,2 courts,Sumter,28.927222,-82.0375
+Oviedo Gymnasium and Aquatic Facility,Oviedo,2 courts,Seminole,28.669722,-81.208333
 Oxford Park,Oxford,6 courts,Sumter,28.927222,-82.0375
+Simple Life - Lakeshore,Oxford,2 courts,Sumter,28.927222,-82.0375
 Oxford Oaks Gated Community,Oxford,2 courts,Sumter,28.927222,-82.0375
+Palatka High School,Palatka,16 courts,Putnam,29.657748,-81.659452
 John Theobold Sports Complex,Palatka,6 courts,Putnam,29.657748,-81.659452
 Grace Fellowship Church,Palatka,3 courts,Putnam,29.657748,-81.659452
-Palatka High School,Palatka,16 courts,Putnam,29.657748,-81.659452
-Veterans Memorial Park,Palm Bay,6 courts,Brevard,28.014605,-80.599087
 Bayside Lakes Community,Palm Bay,2 courts,Brevard,28.014605,-80.599087
-Bayside High School,Palm Bay,4 courts,Brevard,28.014605,-80.599087
 Fred Lee Park,Palm Bay,2 courts,Brevard,28.014605,-80.599087
+Veterans Memorial Park,Palm Bay,6 courts,Brevard,28.014605,-80.599087
 Ted Whitlock Community Center,Palm Bay,4 courts,Brevard,28.014605,-80.599087
-Town Of Palm Beach Seaview Tennis Center,Palm Beach,8 courts,Palm Beach,26.72065,-80.038825
+Bayside High School,Palm Bay,4 courts,Brevard,28.014605,-80.599087
 Phipps Ocean Park Tennis Center,Palm Beach,6 courts,Palm Beach,26.72065,-80.038825
-Burns Road Community Center,Palm Beach Gardens,2 courts,Palm Beach,26.844373,-80.087304
+Town Of Palm Beach Seaview Tennis Center,Palm Beach,8 courts,Palm Beach,26.72065,-80.038825
 Village Of North Palm Beach,Palm Beach Gardens,3 courts,Palm Beach,26.844373,-80.087304
-Palm Beach Gardens Tennis & Pickleball Center,Palm Beach Gardens,12 courts,Palm Beach,26.844373,-80.087304
-Life Time Palm Beach Gardens,Palm Beach Gardens,3 courts,Palm Beach,26.844373,-80.087304
 Garden Lakes Home Owners Association,Palm Beach Gardens,2 courts,Palm Beach,26.844373,-80.087304
+Life Time Palm Beach Gardens,Palm Beach Gardens,3 courts,Palm Beach,26.844373,-80.087304
+Palm Beach Gardens Tennis & Pickleball Center,Palm Beach Gardens,12 courts,Palm Beach,26.844373,-80.087304
+Burns Road Community Center,Palm Beach Gardens,2 courts,Palm Beach,26.844373,-80.087304
 Justin Wilson Memorial Park,Palm City,4 courts,Martin,27.165646,-80.291646
-MSOA Pickleball,Palm Coast,6 courts,Flagler,29.5847,-81.208
+Dr Belle Terre Park,Palm Coast,5 courts,Flagler,29.5847,-81.208
 Hammock Dunes Golf & Country Club,Palm Coast,4 courts,Flagler,29.5847,-81.208
+MSOA Pickleball,Palm Coast,6 courts,Flagler,29.5847,-81.208
 Grand Haven,Palm Coast,1 court,Flagler,29.5847,-81.208
 Hammock Community Center - Malacompra Courts,Palm Coast,6 courts,Flagler,29.5847,-81.208
-Dr Belle Terre Park,Palm Coast,5 courts,Flagler,29.5847,-81.208
 James Holland Park,Palm Coast,8 courts,Flagler,29.5847,-81.208
 A1A Tennis/Pickleball Courts,Palm Coast,4 courts,Flagler,29.5847,-81.208
-Palm Harbor Parks & Recreation - The Centre,Palm Harbor,2 courts,Pinellas,28.077778,-82.763889
 Palm Harbor YMCA,Palm Harbor,3 courts,Pinellas,28.077778,-82.763889
 Highland Lakes HOA,Palm Harbor,4 courts,Pinellas,28.077778,-82.763889
-Village of Palm Springs Athletic Complex,Palm Springs,4 courts,Miami-Dade,26.6359,-80.0962
+Palm Harbor Parks & Recreation - The Centre,Palm Harbor,2 courts,Pinellas,28.077778,-82.763889
 John Prince Park,Palm Springs,6 courts,Miami-Dade,26.6359,-80.0962
+Village of Palm Springs Athletic Complex,Palm Springs,4 courts,Miami-Dade,26.6359,-80.0962
 David M Barksdale Center,Palma Ceia,0 courts,Hillsborough,27.921,-82.4956
-Blackburn Tennis Courts,Palmetto,2 courts,Manatee,27.521111,-82.5725
-Palmetto Tennis Courts,Palmetto,4 courts,Manatee,27.521111,-82.5725
-Terra Ceia Country Club,Palmetto,6 courts,Manatee,27.521111,-82.5725
 The Tides,Palmetto,3 courts,Manatee,27.521111,-82.5725
-Coral Reef Tennis Center,Palmetto Bay,2 courts,Miami-Dade,25.6218,-80.3248
+Palmetto Tennis Courts,Palmetto,4 courts,Manatee,27.521111,-82.5725
+Blackburn Tennis Courts,Palmetto,2 courts,Manatee,27.521111,-82.5725
+Terra Ceia Country Club,Palmetto,6 courts,Manatee,27.521111,-82.5725
 Palmetto Bay Park,Palmetto Bay,2 courts,Miami-Dade,25.6218,-80.3248
-Oakland Terrace Park,Panama City,3 courts,Bay,30.160624,-85.649403
-Oakland Terrace Recreation Center,Panama City,6 courts,Bay,30.160624,-85.649403
+Coral Reef Tennis Center,Palmetto Bay,2 courts,Miami-Dade,25.6218,-80.3248
 Panama City Beach RV Resort,Panama City,2 courts,Bay,30.160624,-85.649403
-Frank Brown Park,Panama City Beach,3 courts,Bay,30.194623,-85.791984
-Edgewater Beach & Golf Resort,Panama City Beach,11 courts,Bay,30.194623,-85.791984
+Oakland Terrace Recreation Center,Panama City,6 courts,Bay,30.160624,-85.649403
+Oakland Terrace Park,Panama City,3 courts,Bay,30.160624,-85.649403
 Lyndell Senior Center,Panama City Beach,4 courts,Bay,30.194623,-85.791984
 Latitude Margaritaville Watersound,Panama City Beach,10 courts,Bay,30.194623,-85.791984
-Pcb condo,Panama City Beach,4 courts,Bay,30.194623,-85.791984
+Edgewater Beach & Golf Resort,Panama City Beach,11 courts,Bay,30.194623,-85.791984
 Celadon Beach Resort,Panama City Beach,1 court,Bay,30.194623,-85.791984
+Frank Brown Park,Panama City Beach,3 courts,Bay,30.194623,-85.791984
 Mexico Beach,Panama City Beach,6 courts,Bay,30.194623,-85.791984
-Terramar Park,Parkland,6 courts,Broward,26.3108,-80.2532
+Pcb condo,Panama City Beach,4 courts,Bay,30.194623,-85.791984
 Four Seasons at Parkland,Parkland,3 courts,Broward,26.3108,-80.2532
 Parkland Recreation & Enrichment Center,Parkland,4 courts,Broward,26.3108,-80.2532
+Terramar Park,Parkland,6 courts,Broward,26.3108,-80.2532
 Del Webb BayView,Parrish,8 courts,Manatee,27.557162,-82.396009
-C.B. Smith Park,Pembroke Pines,6 courts,Broward,26.022927,-80.297441
-Pembroke Lakes Tennis Center,Pembroke Pines,5 courts,Broward,26.022927,-80.297441
-West Pembroke Pines Pickleball Courts,Pembroke Pines,2 courts,Broward,26.022927,-80.297441
-Century Village Pembroke Pines,Pembroke Pines,8 courts,Broward,26.022927,-80.297441
 Silver Lakes Park - North,Pembroke Pines,4 courts,Broward,26.022927,-80.297441
-"Vickery Community Center, Pensacola, Flordia",Pensacola,3 courts,Escambia,30.422282,-87.224763
+Century Village Pembroke Pines,Pembroke Pines,8 courts,Broward,26.022927,-80.297441
+West Pembroke Pines Pickleball Courts,Pembroke Pines,2 courts,Broward,26.022927,-80.297441
+Pembroke Lakes Tennis Center,Pembroke Pines,5 courts,Broward,26.022927,-80.297441
+C.B. Smith Park,Pembroke Pines,6 courts,Broward,26.022927,-80.297441
 Hollis T. Williams Park,Pensacola,3 courts,Escambia,30.422282,-87.224763
+"Vickery Community Center, Pensacola, Flordia",Pensacola,3 courts,Escambia,30.422282,-87.224763
 SeaSpray Perdido Key Condominiums,Pensacola,2 courts,Escambia,30.422282,-87.224763
 Bear Levin Studer Family YMCA,Pensacola,2 courts,Escambia,30.422282,-87.224763
-Malcolm Yonge Center,Pensacola,3 courts,Escambia,30.422282,-87.224763
 Pensacola Athletic Center,Pensacola,4 courts,Escambia,30.422282,-87.224763
+Malcolm Yonge Center,Pensacola,3 courts,Escambia,30.422282,-87.224763
 Taylor County Sports Complex,Perry,2 courts,Taylor,30.097489,-83.585021
-Murabella Amenity Center,Picolata,2 courts,St. Augustine,29.915,-81.5929
-Windward Ranch,Picolata,4 courts,St. Augustine,29.915,-81.5929
 World Golf Village,Picolata,2 courts,St. Augustine,29.915,-81.5929
+Windward Ranch,Picolata,4 courts,St. Augustine,29.915,-81.5929
 Bluegreen Vacations Grande Villas At World Golf Village,Picolata,1 court,St. Augustine,29.915,-81.5929
 Cascades at World Golf Village,Picolata,6 courts,St. Augustine,29.915,-81.5929
 Heritage Landing at World Golf Village,Picolata,2 courts,St. Augustine,29.915,-81.5929
+Murabella Amenity Center,Picolata,2 courts,St. Augustine,29.915,-81.5929
 Trailmark at World Golf Village,Picolata,2 courts,St. Augustine,29.915,-81.5929
-SilverLeaf Village,Picolata,6 courts,St. Augustine,29.915,-81.5929
 King N Bear,Picolata,4 courts,St. Augustine,29.915,-81.5929
-Coral Pine Park,Pinecrest,4 courts,Miami-Dade,25.6623,-80.307
+SilverLeaf Village,Picolata,6 courts,St. Augustine,29.915,-81.5929
 Suniland Park,Pinecrest,4 courts,Miami-Dade,25.6623,-80.307
-Park Royale,Pinellas Park,4 courts,Pinellas,27.8387,-82.7151
+Coral Pine Park,Pinecrest,4 courts,Miami-Dade,25.6623,-80.307
 Forbes Recreation Center,Pinellas Park,2 courts,Pinellas,27.8387,-82.7151
+Park Royale,Pinellas Park,4 courts,Pinellas,27.8387,-82.7151
 Plant City Family YMCA,Plant City,2 courts,Hillsborough,28.0168,-82.1289
 Sadye Gibbs Martin Community Center,Plant City,3 courts,Hillsborough,28.0168,-82.1289
 Morgan Park,Pomona Park,1 court,Putnam,29.502106,-81.630739
-Cypress Park,Pompano Beach,8 courts,Broward,26.231529,-80.12346
-Pompano Beach Community Park,Pompano Beach,12 courts,Broward,26.231529,-80.12346
-Pompano Beach Club,Pompano Beach,3 courts,Broward,26.231529,-80.12346
 City Of Coral Springs,Pompano Beach,2 courts,Broward,26.231529,-80.12346
 Wynmoor,Pompano Beach,8 courts,Broward,26.231529,-80.12346
-Firefighters Park,Pompano Beach,4 courts,Broward,26.231529,-80.12346
 Palm Aire - George Brummer Park,Pompano Beach,4 courts,Broward,26.231529,-80.12346
+Pompano Beach Community Park,Pompano Beach,12 courts,Broward,26.231529,-80.12346
+Firefighters Park,Pompano Beach,4 courts,Broward,26.231529,-80.12346
+Pompano Beach Club,Pompano Beach,3 courts,Broward,26.231529,-80.12346
+Cypress Park,Pompano Beach,8 courts,Broward,26.231529,-80.12346
 Ponce Inlet Community Center & Park,Ponce Inlet,4 courts,Volusia,29.0964,-80.937
-Del Webb Ponte Vedra,Ponte Vedra,0 courts,Saint Johns,30.098,-81.4395
 Valley Ridge Academy,Ponte Vedra,3 courts,Saint Johns,30.098,-81.4395
-Nocatee,Ponte Vedra Beach,12 courts,Saint Johns,30.239444,-81.385833
-Walden Chase,Ponte Vedra Beach,2 courts,Saint Johns,30.239444,-81.385833
-Nocatee Splash Waterpark,Ponte Vedra Beach,12 courts,Saint Johns,30.239444,-81.385833
-Sawmill Lakes,Ponte Vedra Beach,2 courts,Saint Johns,30.239444,-81.385833
+Del Webb Ponte Vedra,Ponte Vedra,0 courts,Saint Johns,30.098,-81.4395
 Ponte Vedra YMCA,Ponte Vedra Beach,3 courts,Saint Johns,30.239444,-81.385833
+Walden Chase,Ponte Vedra Beach,2 courts,Saint Johns,30.239444,-81.385833
+Sawmill Lakes,Ponte Vedra Beach,2 courts,Saint Johns,30.239444,-81.385833
+Nocatee,Ponte Vedra Beach,12 courts,Saint Johns,30.239444,-81.385833
+Nocatee Splash Waterpark,Ponte Vedra Beach,12 courts,Saint Johns,30.239444,-81.385833
 The Yards,Ponte Vedra Beach,12 courts,Saint Johns,30.239444,-81.385833
 Port Charlotte Beach Park,Port Charlotte,4 courts,Charlotte,26.98268,-82.141173
 Franz Ross Park,Port Charlotte,4 courts,Charlotte,26.98268,-82.141173
-Harold Avenue Regional Park Recreation Center,Port Charlotte,9 courts,Charlotte,26.98268,-82.141173
-Harbor Lakes Encore RV Resort,Port Charlotte,3 courts,Charlotte,26.98268,-82.141173
 Centennial Park Recreation Center,Port Charlotte,4 courts,Charlotte,26.98268,-82.141173
-McGuire Park,Port Charlotte,3 courts,Charlotte,26.98268,-82.141173
+Harbor Lakes Encore RV Resort,Port Charlotte,3 courts,Charlotte,26.98268,-82.141173
 William R. Gaines Jr. Veterans Memorial Park,Port Charlotte,8 courts,Charlotte,26.98268,-82.141173
+Harold Avenue Regional Park Recreation Center,Port Charlotte,9 courts,Charlotte,26.98268,-82.141173
 Midway Park,Port Charlotte,8 courts,Charlotte,26.98268,-82.141173
-Port Orange Parks and Recreation,Port Orange,6 courts,Volusia,29.121389,-80.976667
-Port Orange Pickleball Courts,Port Orange,8 courts,Volusia,29.121389,-80.976667
+McGuire Park,Port Charlotte,3 courts,Charlotte,26.98268,-82.141173
 Spruce Creek Country Club,Port Orange,8 courts,Volusia,29.121389,-80.976667
+Port Orange Pickleball Courts,Port Orange,8 courts,Volusia,29.121389,-80.976667
+Port Orange Parks and Recreation,Port Orange,6 courts,Volusia,29.121389,-80.976667
 The Salvation Army Corps & Community Center,Port Richey,3 courts,Pasco,28.301148,-82.692714
 Salinas Park,Port St. Joe,4 courts,Gulf,29.83539,-85.298787
 Frank Pate Park,Port St. Joe,4 courts,Gulf,29.83539,-85.298787
 Gulf County Veterans Memorial Park at Beacon Hill,Port St. Joe,4 courts,Gulf,29.83539,-85.298787
 The Cascades of Saint Lucie West,Port St. Lucie,2 courts,Saint Lucie,27.288895,-80.297971
-Vitalia At Traditions,Port St. Lucie,8 courts,Saint Lucie,27.288895,-80.297971
 PGA Village Island Club,Port St. Lucie,4 courts,Saint Lucie,27.288895,-80.297971
 PGA Village Verano Pickleball Courts,Port St. Lucie,27 courts,Saint Lucie,27.288895,-80.297971
 Whispering Pines Tennis Center,Port St. Lucie,8 courts,Saint Lucie,27.288895,-80.297971
 The Legacy Golf and Tennis Club,Port St. Lucie,6 courts,Saint Lucie,27.288895,-80.297971
-Harbour Heights Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
+Vitalia At Traditions,Port St. Lucie,8 courts,Saint Lucie,27.288895,-80.297971
 Bissett Park,Punta Gorda,4 courts,Charlotte,26.915163,-82.053166
-Seminole Lakes,Punta Gorda,4 courts,Charlotte,26.915163,-82.053166
-Deep Creek Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
-PicklePlex,Punta Gorda,16 courts,Charlotte,26.915163,-82.053166
-Gilchrist Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
 River Haven,Punta Gorda,1 court,Charlotte,26.915163,-82.053166
-Punta Gorda Club,Punta Gorda,4 courts,Charlotte,26.915163,-82.053166
-Florida Southwestern State College - Charlotte Campus,Punta Gorda,16 courts,Charlotte,26.915163,-82.053166
 Burnt Store Marina Fitness Center,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
 South County Regional Park,Punta Gorda,12 courts,Charlotte,26.915163,-82.053166
+PicklePlex,Punta Gorda,16 courts,Charlotte,26.915163,-82.053166
+Seminole Lakes,Punta Gorda,4 courts,Charlotte,26.915163,-82.053166
+Deep Creek Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
+Punta Gorda Club,Punta Gorda,4 courts,Charlotte,26.915163,-82.053166
+Florida Southwestern State College - Charlotte Campus,Punta Gorda,16 courts,Charlotte,26.915163,-82.053166
 Maple Leaf Golf & Country Club,Punta Gorda,2 courts,Charlotte,26.915163,-82.053166
+Harbour Heights Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
+Gilchrist Park,Punta Gorda,8 courts,Charlotte,26.915163,-82.053166
 Marina Grande,Riviera Beach,2 courts,Palm Beach,26.7753,-80.0581
 Rockledge Country Club,Rockledge,6 courts,Brevard,28.313441,-80.73193
 McLarty Park,Rockledge,2 courts,Brevard,28.313441,-80.73193
-Rotonda Community Park,Rotonda,8 courts,Charlotte,26.8837,-82.2901
 Rotonda West Park,Rotonda,2 courts,Charlotte,26.8837,-82.2901
-Royal Palm Beach Recreation Center,Royal Palm Beach,6 courts,Palm Beach,26.7084,-80.2306
+Rotonda Community Park,Rotonda,8 courts,Charlotte,26.8837,-82.2901
 Madison Green Clubhouse,Royal Palm Beach,1 court,Palm Beach,26.7084,-80.2306
+Royal Palm Beach Recreation Center,Royal Palm Beach,6 courts,Palm Beach,26.7084,-80.2306
+Riverside Marina,Ruskin,6 courts,Hillsborough,27.701501,-82.435501
 Ruskin Park & Recreation Center,Ruskin,2 courts,Hillsborough,27.701501,-82.435501
 Cypress Mill,Ruskin,2 courts,Hillsborough,27.701501,-82.435501
-Riverside Marina,Ruskin,6 courts,Hillsborough,27.701501,-82.435501
 Safety Harbor Community Center,Safety Harbor,8 courts,Pinellas,28.009608,-82.696658
 Cimarrone Golf Club,Sampson,3 courts,St. Johns,30.0647,-81.5018
 Saint Anthony Catholic School,San Antonio,2 courts,Pasco,28.337139,-82.288237
 Groveview Park,Sanford,6 courts,Seminole,28.801307,-81.285044
 Lee P Moore Park Tennis & Pickleball Courts,Sanford,6 courts,Seminole,28.801307,-81.285044
 The Salvation Army Community Center,Sanford,3 courts,Seminole,28.801307,-81.285044
-Sundial Beach & Golf Resort,Sanibel,12 courts,Lee,26.4514,-82.086825
-Sanibel Recreation Center,Sanibel,2 courts,Lee,26.4514,-82.086825
 Surfrider Beach Club Resort,Sanibel,1 court,Lee,26.4514,-82.086825
+Sanibel Recreation Center,Sanibel,2 courts,Lee,26.4514,-82.086825
+Sundial Beach & Golf Resort,Sanibel,12 courts,Lee,26.4514,-82.086825
 Holiday Inn Hotel Sanibel Island,Sanibel,2 courts,Lee,26.4514,-82.086825
+WaterColor Tennis/Pickleball,Santa Rosa Beach,2 courts,Walton,30.365883,-86.245809
 Boys And Girls Club of the Emerald Coast,Santa Rosa Beach,6 courts,Walton,30.365883,-86.245809
 South Walton Sports Complex,Santa Rosa Beach,4 courts,Walton,30.365883,-86.245809
 South Walton Academy/Indoor ickleball,Santa Rosa Beach,2 courts,Walton,30.365883,-86.245809
-WaterColor Tennis/Pickleball,Santa Rosa Beach,2 courts,Walton,30.365883,-86.245809
+Our Y Sadlier Park,Sarasota,2 courts,Sarasota,27.3348,-82.5375
 Church of the Palms,Sarasota,3 courts,Sarasota,27.3348,-82.5375
-Newtown Estates Park,Sarasota,7 courts,Sarasota,27.3348,-82.5375
-Colonial Oaks Park,Sarasota,10 courts,Sarasota,27.3348,-82.5375
-CORE SRQ - North Branch,Sarasota,0 courts,Sarasota,27.3348,-82.5375
-The Pickleball Club at Lakewood Ranch,Sarasota,14 courts,Sarasota,27.3348,-82.5375
-Artistry Sarasota,Sarasota,1 court,Sarasota,27.3348,-82.5375
-Salvation Army Gym,Sarasota,0 courts,Sarasota,27.3348,-82.5375
-Arlington Park & Aquatic Complex,Sarasota,4 courts,Sarasota,27.3348,-82.5375
-Longwood Park,Sarasota,8 courts,Sarasota,27.3348,-82.5375
-Lakehouse Cove at Waterside,Sarasota,2 courts,Sarasota,27.3348,-82.5375
-Palm-Aire Country Club,Sarasota,8 courts,Sarasota,27.3348,-82.5375
-Serendipity Health & Racquet Club,Sarasota,1 court,Sarasota,27.3348,-82.5375
-Fruitville Park,Sarasota,4 courts,Sarasota,27.3348,-82.5375
-Youth Athletic Complex,Sarasota,1 court,Sarasota,27.3348,-82.5375
-Siesta Key Public Beach,Sarasota,4 courts,Sarasota,27.3348,-82.5375
-Castel Del Mar,Sarasota,1 court,Sarasota,27.3348,-82.5375
-Twin Lakes Park,Sarasota,4 courts,Sarasota,27.3348,-82.5375
-Core SRQ - South Branch,Sarasota,2 courts,Sarasota,27.3348,-82.5375
-Shoreview at Lakewood Ranch Waterside by Pulte Homes,Sarasota,4 courts,Sarasota,27.3348,-82.5375
 Sarasota Municipal Auditorium,Sarasota,2 courts,Sarasota,27.3348,-82.5375
 Sarasota Pompano Pickleball,Sarasota,12 courts,Sarasota,27.3348,-82.5375
-Our Y Sadlier Park,Sarasota,2 courts,Sarasota,27.3348,-82.5375
+Youth Athletic Complex,Sarasota,1 court,Sarasota,27.3348,-82.5375
+Newtown Estates Park,Sarasota,7 courts,Sarasota,27.3348,-82.5375
+Salvation Army Gym,Sarasota,0 courts,Sarasota,27.3348,-82.5375
+Twin Lakes Park,Sarasota,4 courts,Sarasota,27.3348,-82.5375
+Palm-Aire Country Club,Sarasota,8 courts,Sarasota,27.3348,-82.5375
+Castel Del Mar,Sarasota,1 court,Sarasota,27.3348,-82.5375
+Shoreview at Lakewood Ranch Waterside by Pulte Homes,Sarasota,4 courts,Sarasota,27.3348,-82.5375
+Longwood Park,Sarasota,8 courts,Sarasota,27.3348,-82.5375
 Grand Park,Sarasota,4 courts,Sarasota,27.3348,-82.5375
+CORE SRQ - North Branch,Sarasota,0 courts,Sarasota,27.3348,-82.5375
+Artistry Sarasota,Sarasota,1 court,Sarasota,27.3348,-82.5375
+Lakehouse Cove at Waterside,Sarasota,2 courts,Sarasota,27.3348,-82.5375
+Core SRQ - South Branch,Sarasota,2 courts,Sarasota,27.3348,-82.5375
+The Pickleball Club at Lakewood Ranch,Sarasota,14 courts,Sarasota,27.3348,-82.5375
+Serendipity Health & Racquet Club,Sarasota,1 court,Sarasota,27.3348,-82.5375
+Arlington Park & Aquatic Complex,Sarasota,4 courts,Sarasota,27.3348,-82.5375
+Colonial Oaks Park,Sarasota,10 courts,Sarasota,27.3348,-82.5375
+Siesta Key Public Beach,Sarasota,4 courts,Sarasota,27.3348,-82.5375
+Fruitville Park,Sarasota,4 courts,Sarasota,27.3348,-82.5375
 Robert L. Taylor Community Complex,Sarasota,2 courts,Sarasota,27.3348,-82.5375
 Parkside Place,Satellite Beach,2 courts,Brevard,28.178571,-80.598671
 Satellite Beach Community Center,Satellite Beach,3 courts,Brevard,28.178571,-80.598671
-Whispering Palms Mhc And Rv Resort,Sebastian,3 courts,Indian River,27.790082,-80.478432
 Schumann Drive Park,Sebastian,6 courts,Indian River,27.790082,-80.478432
 Sebastian Pickleball Complex,Sebastian,8 courts,Indian River,27.790082,-80.478432
 Sebastian River High School,Sebastian,7 courts,Indian River,27.790082,-80.478432
+Whispering Palms Mhc And Rv Resort,Sebastian,3 courts,Indian River,27.790082,-80.478432
 Buttonwood Bay RV Resort,Sebring,5 courts,Highlands,27.492391,-81.435712
+Sun n Lake,Sebring,8 courts,Highlands,27.492391,-81.435712
 Tanglewood,Sebring,8 courts,Highlands,27.492391,-81.435712
 Charlie Brown Park,Sebring,2 courts,Highlands,27.492391,-81.435712
-Highlands County Tennis Center,Sebring,8 courts,Highlands,27.492391,-81.435712
 Spring Lake Pickleball Club,Sebring,2 courts,Highlands,27.492391,-81.435712
-Sun n Lake,Sebring,8 courts,Highlands,27.492391,-81.435712
+Highlands County Tennis Center,Sebring,8 courts,Highlands,27.492391,-81.435712
 North Brandon Family YMCA,Seffner,2 courts,Hillsborough,27.983333,-82.275833
 Higginbotham Park,Seffner,8 courts,Hillsborough,27.983333,-82.275833
-Seminole Recreation Division,Seminole,4 courts,Pinellas,27.8438,-82.7947
-Bardmoor Elementary School,Seminole,1 court,Pinellas,27.8438,-82.7947
 Bardmoor Golf & Tennis Club,Seminole,12 courts,Pinellas,27.8438,-82.7947
+Bardmoor Elementary School,Seminole,1 court,Pinellas,27.8438,-82.7947
+Seminole Recreation Division,Seminole,4 courts,Pinellas,27.8438,-82.7947
 Seminole Lake Family Tennis Center,Seminole,4 courts,Pinellas,27.8438,-82.7947
-Delta Woods Park,Spring Hill,2 courts,Hernando,28.46551,-82.598084
-Timber Pines - Lodge Activity Center,Spring Hill,6 courts,Hernando,28.46551,-82.598084
 Silverthorn,Spring Hill,4 courts,Hernando,28.46551,-82.598084
-Bannon Lakes,St. Augustine,2 courts,Saint Johns,29.8364,-81.2745
+Timber Pines - Lodge Activity Center,Spring Hill,6 courts,Hernando,28.46551,-82.598084
+Delta Woods Park,Spring Hill,2 courts,Hernando,28.46551,-82.598084
 Markland Manor House,St. Augustine,2 courts,Saint Johns,29.8364,-81.2745
-The Ocean Gallery,St. Augustine,2 courts,Saint Johns,29.8364,-81.2745
 Parkland Preserve by DR Horton,St. Augustine,4 courts,Saint Johns,29.8364,-81.2745
-Conquistador,St. Augustine,3 courts,Saint Johns,29.8364,-81.2745
-Ron Parker Park,St. Augustine,6 courts,Saint Johns,29.8364,-81.2745
-Villages Of Vilano,St. Augustine,1 court,Saint Johns,29.8364,-81.2745
-St. Augustine YMCA,St. Augustine,3 courts,Saint Johns,29.8364,-81.2745
+Bannon Lakes,St. Augustine,2 courts,Saint Johns,29.8364,-81.2745
 Palencia,St. Augustine,4 courts,Saint Johns,29.8364,-81.2745
+The Ocean Gallery,St. Augustine,2 courts,Saint Johns,29.8364,-81.2745
+Ron Parker Park,St. Augustine,6 courts,Saint Johns,29.8364,-81.2745
+St. Augustine YMCA,St. Augustine,3 courts,Saint Johns,29.8364,-81.2745
+Villages Of Vilano,St. Augustine,1 court,Saint Johns,29.8364,-81.2745
+Conquistador,St. Augustine,3 courts,Saint Johns,29.8364,-81.2745
 Treaty Park,St. Augustine South,8 courts,St. Johns,29.8922,-81.3139
-Del Webb Sunbridge,St. Cloud,7 courts,Osceola,28.247992,-81.287626
-Godwin Park,St. Cloud,6 courts,Osceola,28.247992,-81.287626
 Ted Broda Memorial Park,St. Cloud,5 courts,Osceola,28.247992,-81.287626
+Godwin Park,St. Cloud,6 courts,Osceola,28.247992,-81.287626
+Del Webb Sunbridge,St. Cloud,7 courts,Osceola,28.247992,-81.287626
 St. George Island Vistor Center,St. George Island,1 court,Franklin,29.6585,-84.8802
-St Pete Beach Community Center,St. Pete Beach,2 courts,Pinellas,27.7428,-82.7505
 Warren Webster Community Center,St. Pete Beach,3 courts,Pinellas,27.7428,-82.7505
-Fuller,St. Petersburg,8 courts,Pinellas,27.772318,-82.638609
-YMCA at Lealman Exchange,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
-Campbell Park Recreation Center,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
-Pasadena Community Church,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
-Shore Acres Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
-Waterside North at Coquina Key,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
-Walter Fuller Recreation Center,St. Petersburg,4 courts,Pinellas,27.772318,-82.638609
+St Pete Beach Community Center,St. Pete Beach,2 courts,Pinellas,27.7428,-82.7505
+Booker Creek Park,St. Petersburg,1 court,Pinellas,27.772318,-82.638609
 Fossil Park,St. Petersburg,6 courts,Pinellas,27.772318,-82.638609
+YMCA at Lealman Exchange,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
+Roberts Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
+Fuller,St. Petersburg,8 courts,Pinellas,27.772318,-82.638609
+Campbell Park Recreation Center,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
+Waterside North at Coquina Key,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
+Pasadena Community Church,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
 Crescent Lake Park,St. Petersburg,6 courts,Pinellas,27.772318,-82.638609
-YMCA Of Greater St. Petersburg,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
 Tierra Verde Community Association,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
 Lake Vista Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
 J W Cate Recreation Center,St. Petersburg,8 courts,Pinellas,27.772318,-82.638609
+Shore Acres Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
 Coquina Key Park,St. Petersburg,6 courts,Pinellas,27.772318,-82.638609
 Gladden Park Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
-Booker Creek Park,St. Petersburg,1 court,Pinellas,27.772318,-82.638609
-Roberts Recreation Center,St. Petersburg,3 courts,Pinellas,27.772318,-82.638609
+YMCA Of Greater St. Petersburg,St. Petersburg,2 courts,Pinellas,27.772318,-82.638609
+Walter Fuller Recreation Center,St. Petersburg,4 courts,Pinellas,27.772318,-82.638609
 Kingsley Lake Park,Starke,1 court,Bradford,29.958299,-82.118518
-YMCA of the Treasure Coast,Stuart,4 courts,Martin,27.196834,-80.253786
-Stuart Yacht & Country Club,Stuart,2 courts,Martin,27.196834,-80.253786
-Halpatiokee Park Tennis Center,Stuart,18 courts,Martin,27.196834,-80.253786
 Wojcieszak Park,Stuart,1 court,Martin,27.196834,-80.253786
+Stuart Yacht & Country Club,Stuart,2 courts,Martin,27.196834,-80.253786
+Powerhouse Gym Stuart,Stuart,2 courts,Martin,27.196834,-80.253786
+YMCA of the Treasure Coast,Stuart,4 courts,Martin,27.196834,-80.253786
 North River Shores Tennis Club,Stuart,4 courts,Martin,27.196834,-80.253786
 South River Condominiums,Stuart,2 courts,Martin,27.196834,-80.253786
-Powerhouse Gym Stuart,Stuart,2 courts,Martin,27.196834,-80.253786
+Halpatiokee Park Tennis Center,Stuart,18 courts,Martin,27.196834,-80.253786
+Stonecrest Community,Summerfield,8 courts,Marion,28.9958,-82.0214
 Spruce Creek South,Summerfield,4 courts,Marion,28.9958,-82.0214
 Del Webb Spruce Creek Golf And Country Club,Summerfield,12 courts,Marion,28.9958,-82.0214
-Stonecrest Community,Summerfield,8 courts,Marion,28.9958,-82.0214
-Sun City Center,Sun City Center,8 courts,Hillsborough,27.7205,-82.4333
 Kings Point South Pickleball Courts,Sun City Center,4 courts,Hillsborough,27.7205,-82.4333
+Sun City Center,Sun City Center,8 courts,Hillsborough,27.7205,-82.4333
 "The Dunmore Resort, Harbour Island",Surfside,2 courts,Miami-Dade,25.8784,-80.1256
 Surfside Tennis Center,Surfside,2 courts,Miami-Dade,25.8784,-80.1256
 Northside Community Center,Tallahassee,3 courts,Leon,30.428563,-84.259337
@@ -921,7 +922,7 @@ South Tampa Family YMCA,Tampa,6 courts,Hillsborough,27.9428,-82.4549
 SportsSpace Tampa,Tampa,3 courts,Hillsborough,27.9428,-82.4549
 Police Athletic League,Tampa,0 courts,Hillsborough,27.9428,-82.4549
 HCC Tennis & Pickleball Center,Tampa,11 courts,Hillsborough,27.9428,-82.4549
-Northlakes Sports Complex,Tampa,8 courts,Hillsborough,27.9428,-82.4549
+Northlakes Sports Complex,Tampa,14 courts,Hillsborough,27.9428,-82.4549
 Port Tampa Community Center,Tampa,0 courts,Hillsborough,27.9428,-82.4549
 New Tampa Family YMCA,Tampa,2 courts,Hillsborough,27.9428,-82.4549
 South Pointe Alexis HOA,Tarpon Springs,3 courts,Pinellas,28.145833,-82.756944
@@ -935,79 +936,79 @@ Bacall Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
 Allamanda Pool & Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
 Aviary,The Villages,6 courts,Sumter,28.9335,-82.0046
 Hibiscus Pool & Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
-Colony Cottage Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
-Fish Hawk courts,The Villages,6 courts,Sumter,28.9335,-82.0046
-Moyer Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
-Mulberry Grove Pool & Recreation Center,The Villages,10 courts,Sumter,28.9335,-82.0046
-El Santiago Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
-DeLuna Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
+Manatee,The Villages,6 courts,Sumter,28.9335,-82.0046
 Rohan Recreation Center,The Villages,18 courts,Sumter,28.9335,-82.0046
 Saddlebrook Neighborhood Pool,The Villages,6 courts,Sumter,28.9335,-82.0046
+Colony Cottage Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
 Sawgrass,The Villages,6 courts,Sumter,28.9335,-82.0046
 Coconut Cove Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
 Seabreeze Courts,The Villages,6 courts,Sumter,28.9335,-82.0046
 Spanish Moss,The Villages,6 courts,Sumter,28.9335,-82.0046
+El Santiago Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
+Mulberry Grove Pool & Recreation Center,The Villages,10 courts,Sumter,28.9335,-82.0046
+DeLuna Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
 Captiva Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
 Captiva,The Villages,6 courts,Sumter,28.9335,-82.0046
-Manatee,The Villages,6 courts,Sumter,28.9335,-82.0046
-Bradenton Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
-Burnsed,The Villages,6 courts,Sumter,28.9335,-82.0046
+Moyer Recreation Center,The Villages,4 courts,Sumter,28.9335,-82.0046
 Big Cypress,The Villages,6 courts,Sumter,28.9335,-82.0046
-The Great Outdoors RV Resort,Titusville,6 courts,Brevard,28.569712,-80.819141
-Titusville YMCA,Titusville,3 courts,Brevard,28.569712,-80.819141
+Burnsed,The Villages,6 courts,Sumter,28.9335,-82.0046
+Fish Hawk courts,The Villages,6 courts,Sumter,28.9335,-82.0046
+Bradenton Pool & Recreation Center,The Villages,6 courts,Sumter,28.9335,-82.0046
 St Teresa Catholic School,Titusville,4 courts,Brevard,28.569712,-80.819141
+Titusville YMCA,Titusville,3 courts,Brevard,28.569712,-80.819141
 Singleton Courts,Titusville,6 courts,Brevard,28.569712,-80.819141
+The Great Outdoors RV Resort,Titusville,6 courts,Brevard,28.569712,-80.819141
 Treasure Bay Golf & Tennis,Treasure Island,5 courts,Pinellas,27.7692,-82.769
-Venice Christian School Inc.,Venice,2 courts,Sarasota,27.0993,-82.4489
-Hecksher Park,Venice,2 courts,Sarasota,27.0993,-82.4489
+Laurel park Nokomis,Venice,3 courts,Sarasota,27.0993,-82.4489
+Pinebrook Park,Venice,2 courts,Sarasota,27.0993,-82.4489
+Bird Bay Village,Venice,5 courts,Sarasota,27.0993,-82.4489
 Woodmere Park,Venice,4 courts,Sarasota,27.0993,-82.4489
 Venice Community Center,Venice,4 courts,Sarasota,27.0993,-82.4489
-Bird Bay Village,Venice,5 courts,Sarasota,27.0993,-82.4489
-Pinebrook Park,Venice,2 courts,Sarasota,27.0993,-82.4489
-Foxworthy Campus / Bypass Park,Venice,10 courts,Sarasota,27.0993,-82.4489
-Laurel park Nokomis,Venice,3 courts,Sarasota,27.0993,-82.4489
 Bay Indies Resort Community,Venice,3 courts,Sarasota,27.0993,-82.4489
+Hecksher Park,Venice,2 courts,Sarasota,27.0993,-82.4489
+Foxworthy Campus / Bypass Park,Venice,10 courts,Sarasota,27.0993,-82.4489
+Venice Christian School Inc.,Venice,2 courts,Sarasota,27.0993,-82.4489
 Pocahontas Park,Vero Beach,12 courts,Indian River,27.632985,-80.403075
-South County Regional Park,Vero Beach,12 courts,Indian River,27.632985,-80.403075
+Indian River County IG Center,Vero Beach,6 courts,Indian River,27.632985,-80.403075
+Vista Royale,Vero Beach,6 courts,Indian River,27.632985,-80.403075
 Church of Jesus Christ of Latter-day Saints,Vero Beach,1 court,Indian River,27.632985,-80.403075
 Vero Fitness,Vero Beach,6 courts,Indian River,27.632985,-80.403075
-Vista Royale,Vero Beach,6 courts,Indian River,27.632985,-80.403075
-Indian River County IG Center,Vero Beach,6 courts,Indian River,27.632985,-80.403075
+South County Regional Park,Vero Beach,12 courts,Indian River,27.632985,-80.403075
 Thousand Trails Peace River RV & Camping Resort,Wauchula,2 courts,Hardee,27.551742,-81.807388
 Christian Church In The Wildwood,Weeki Wachee,3 courts,Hernando,28.5156,-82.5729
 Firehouse Pickleball Courts,Welaka,3 courts,Putnam,29.478889,-81.671667
-Arden,Wellington,2 courts,Palm Beach,26.6618,-80.2684
 Okeeheelee Park,Wellington,6 courts,Palm Beach,26.6618,-80.2684
+Arden,Wellington,2 courts,Palm Beach,26.6618,-80.2684
 Greenview Shores Park,Wellington,4 courts,Palm Beach,26.6618,-80.2684
 Wellington Boys and Girls Club,Wellington,0 courts,Palm Beach,26.6618,-80.2684
-Wellington Village Park,Wellington,5 courts,Palm Beach,26.6618,-80.2684
+Village Park Athletics Complex,Wellington,5 courts,Palm Beach,26.6618,-80.2684
 Wesley Chapel District Park Recreation Center,Wesley Chapel,8 courts,Pasco,28.210365,-82.288956
 Greenwood Village,West Melbourne,1 court,Brevard,28.0717,-80.6534
-Suncoast Community High School,West Palm Beach,8 courts,Palm Beach,26.713956,-80.065874
-Club Baywinds,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
 Howard Park Community Center,West Palm Beach,2 courts,Palm Beach,26.713956,-80.065874
-Villages of Palm Beach Lakes,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
-Lake Lytal Park,West Palm Beach,6 courts,Palm Beach,26.713956,-80.065874
-Westgate Park and Recreation Center,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
 Lilac Park,West Palm Beach,12 courts,Palm Beach,26.713956,-80.065874
-The Club at Ibis,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
-Perini Park,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
 Green Acres Freedom Park,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
+Perini Park,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
 Okeeheelee Park,West Palm Beach,6 courts,Palm Beach,26.713956,-80.065874
+Club Baywinds,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
+Westgate Park and Recreation Center,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
+Lake Lytal Park,West Palm Beach,6 courts,Palm Beach,26.713956,-80.065874
+Villages of Palm Beach Lakes,West Palm Beach,3 courts,Palm Beach,26.713956,-80.065874
+The Club at Ibis,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
+Suncoast Community High School,West Palm Beach,8 courts,Palm Beach,26.713956,-80.065874
 Century Village West Palm Beach,West Palm Beach,4 courts,Palm Beach,26.713956,-80.065874
 Cresswind Palm Beach at Westlake,Westlake,8 courts,Palm Beach,26.747,-80.3077
-Weston Racquet Club,Weston,4 courts,Palm Beach,26.1004,-80.3998
-Weston Regional Park,Weston,4 courts,Palm Beach,26.1004,-80.3998
 Weston Regional Park - Basketball Courts,Weston,8 courts,Palm Beach,26.1004,-80.3998
+Weston Regional Park,Weston,4 courts,Palm Beach,26.1004,-80.3998
+Midtown Athletic Club,Weston,4 courts,Palm Beach,26.1004,-80.3998
+Weston Racquet Club,Weston,4 courts,Palm Beach,26.1004,-80.3998
 Bonaventure Town Center Club,Weston,2 courts,Palm Beach,26.1004,-80.3998
 Markham Park,Weston,4 courts,Palm Beach,26.1004,-80.3998
-Midtown Athletic Club,Weston,4 courts,Palm Beach,26.1004,-80.3998
-Cattail,Wildwood,2 courts,Sumter,28.845353,-82.03473
-Homestead,Wildwood,6 courts,Sumter,28.845353,-82.03473
 Everglades Recreation Complex,Wildwood,12 courts,Sumter,28.845353,-82.03473
-Water Lily,Wildwood,6 courts,Sumter,28.845353,-82.03473
-Riverbend Recreation Center,Wildwood,6 courts,Sumter,28.845353,-82.03473
 Ezell,Wildwood,9 courts,Sumter,28.845353,-82.03473
+Cattail,Wildwood,2 courts,Sumter,28.845353,-82.03473
+Water Lily,Wildwood,6 courts,Sumter,28.845353,-82.03473
+Homestead,Wildwood,6 courts,Sumter,28.845353,-82.03473
+Riverbend Recreation Center,Wildwood,6 courts,Sumter,28.845353,-82.03473
 Williston Crossings RV Resort,Williston,4 courts,Levy,29.397737,-82.485601
 Manor Grove Village Four,Wilton Manors,4 courts,Broward,26.1604,-80.1389
 Hagen Park Community Center,Wilton Manors,4 courts,Broward,26.1604,-80.1389
