@@ -96,6 +96,31 @@ new Chart(ctx, {
         },
     },
 });
+
+const config = {
+    type: 'bar',
+    data: {
+      labels: data.map(entry => entry.City), 
+      datasets: [
+        {
+          label: 'Number of Courts',
+          data: data.map(entry => entry['TotalCourts']), // Assuming 'TotalCourts' is the data
+          backgroundColor: 'rgba(75, 192, 192, 0.2', 
+          borderColor: 'rgba(75, 192, 192, 1', 
+          borderWidth: 1, 
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  };
+
+
 // Create customized markers for hospitals
   const hosIcon = L.icon({
   iconUrl: 'static/images/hospital_marker_icon.png', 

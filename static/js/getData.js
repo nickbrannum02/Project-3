@@ -21,10 +21,10 @@ d3.json('/api/hospital_data')
     hospitalData = data;
     console.log(hospitalData);
   })
-// Elderly Population
-courtsData = {}
-d3.json('/api/')
+// Total Population
+totalData = {}
+d3.json('/api/total_population')
   .then(function(data) {
-    elderlyData = data;
-    console.log(courtsData);
+    totalData = data;
+    console.log(totalData);
   })
