@@ -22,7 +22,6 @@ Base.prepare(autoload_with=engine)
 courts = Base.classes.court_location
 elderly = Base.classes.elderly_people
 hospitals = Base.classes.hospitals 
-population=Base.classes.elderly_people
 #################################################
 # Flask Setup
 #################################################
@@ -119,9 +118,7 @@ def county_data():
     cursor = conn.cursor()
 
     # Execute an SQL query to fetch data
-    sql_query = """SELECT c.City, SUM(CAST(c."Number of Courts" AS REAL)) AS "Number of Courts"
-                   FROM court_location c
-                   GROUP BY c.City"""
+    sql_query = """SELECT City, "Number of Courts" FROM court_location"""
 
     cursor.execute(sql_query)
 
@@ -136,14 +133,6 @@ def county_data():
 
     # Return the data as JSON
     return jsonify(county_data)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
-
-
-
 
 
 if __name__ == '__main__':
