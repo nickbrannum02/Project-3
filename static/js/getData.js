@@ -21,10 +21,4 @@ d3.json('/api/hospital_data')
     hospitalData = data;
     console.log(hospitalData);
   })
-// Total Population
-totalData = {}
-d3.json('/api/total_population')
-  .then(function(data) {
-    totalData = data;
-    console.log(totalData);
-  })
+

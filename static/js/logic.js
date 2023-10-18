@@ -104,7 +104,7 @@ const config = {
       datasets: [
         {
           label: 'Number of Courts',
-          data: data.map(entry => entry['TotalCourts']), // Assuming 'TotalCourts' is the data
+          data: data.map(entry => entry['countyData']), // Assuming 'TotalCourts' is the data
           backgroundColor: 'rgba(75, 192, 192, 0.2', 
           borderColor: 'rgba(75, 192, 192, 1', 
           borderWidth: 1, 

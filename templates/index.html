@@ -146,53 +146,56 @@
     </head>
     
         <h1>Courts and Cities</h1>
+
         <div id="chart-container">
             <canvas id="bar-chart"></canvas>
         </div>
-    
+        
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-            async function fetchData() {
-                const response = await fetch('/data');
-                const data = await response.json();
-    
-                const cities = data.data.map(item => item[0]);
-                const courtCounts = data.data.map(item => item[1]);
-    
-                const ctx = document.getElementById('bar-chart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: cities,
-                        datasets: [{
-                            label: 'Number of Courts',
-                            data: courtCounts,  
-                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            borderWidth: 1
-                        }]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                beginAtZero: true,
-                                title: {
-                                    display: true,
-                                    text: 'Number of Courts'  
-                                }
-                            },
-                            x: {
-                                title: {
-                                    display: true,
-                                    text: 'Cities'  
-                                }
-                            }
-                        }
+            // Replace your existing fetchData() function with this one
+async function fetchData() {
+    const response = await fetch('/api/county_data');
+    const data = await response.json();
+
+    const cities = data.map(entry => entry.City);
+    const courtCounts = data.map(entry => entry.countyData);
+
+    const ctx = document.getElementById('bar-chart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: cities,
+            datasets: [{
+                label: 'Number of Courts',
+                data: courtCounts,
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Courts'
                     }
-                });
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Cities'
+                    }
+                }
             }
-    
-            fetchData();
+        }
+    });
+}
+
+fetchData();
+
         </script>
     
  
