@@ -111,8 +111,8 @@ def hospitals():
     return jsonify(hospital_data)
 
 
-@app.route('/api/county_data', methods=['GET'])
-def county_data():
+@app.route('/api/city_data', methods=['GET'])
+def city_data():
     # Connect to the SQLite database
     conn = sqlite3.connect('florida_info_db.sqlite')
     cursor = conn.cursor()
@@ -124,15 +124,15 @@ def county_data():
 
     # Fetch all rows from the query result
     rows = cursor.fetchall()
-
     # Close the database connection
     conn.close()
 
     # Convert the rows to a list of dictionaries
-    county_data = [{'City': row[0], 'Number of Courts': row[1]} for row in rows]
+    city_data = [{'City': row[0], 'Number of Courts': row[1]} for row in rows]
 
     # Return the data as JSON
-    return jsonify(county_data)
+    return jsonify(city_data)
+
 
 
 if __name__ == '__main__':

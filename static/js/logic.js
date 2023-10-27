@@ -96,18 +96,35 @@ new Chart(ctx, {
         },
     },
 });
+// Initialize an empty cityData object
+let cityData = {};
 
-const config = {
+// Fetch data from the API and populate cityData
+d3.json('/api/city_data')
+  .then(function (data) {
+    cityData = data;
+
+    // Create the chart after data is loaded
+    createBarChart();
+  })
+  .catch(function (error) {
+    console.error('Error fetching data:', error);
+  });
+
+// Function to create the bar chart
+function createBarChart() {
+  // Create the chart using the retrieved data
+  const config = {
     type: 'bar',
     data: {
-      labels: data.map(entry => entry.City), 
+      labels: cityData.map(entry => entry.City),
       datasets: [
         {
           label: 'Number of Courts',
-          data: data.map(entry => entry['countyData']), // Assuming 'TotalCourts' is the data
-          backgroundColor: 'rgba(75, 192, 192, 0.2', 
-          borderColor: 'rgba(75, 192, 192, 1', 
-          borderWidth: 1, 
+          data: cityData.map(entry => entry['Number of Courts']), // Corrected property name
+          backgroundColor: 'rgba(75, 192, 192, 0.2',
+          borderColor: 'rgba(75, 192, 192, 1',
+          borderWidth: 1,
         },
       ],
     },
@@ -119,6 +136,11 @@ const config = {
       },
     },
   };
+
+  // Create the chart
+  const ctx = document.getElementById('myChart').getContext('2d');
+  const myChart = new Chart(ctx, config);
+}
 
 
 // Create customized markers for hospitals

@@ -153,14 +153,15 @@
         
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-            // Replace your existing fetchData() function with this one
+        
 async function fetchData() {
-    const response = await fetch('/api/county_data');
+    const response = await fetch('/api/city_data');
     const data = await response.json();
 
     const cities = data.map(entry => entry.City);
-    const courtCounts = data.map(entry => entry.countyData);
+    const courtCounts = data.map(entry => entry.cityData);
 
+// Create bar chart 
     const ctx = document.getElementById('bar-chart').getContext('2d');
     new Chart(ctx, {
         type: 'bar',
@@ -186,7 +187,7 @@ async function fetchData() {
                 x: {
                     title: {
                         display: true,
-                        text: 'Cities'
+                        text: 'City'
                     }
                 }
             }

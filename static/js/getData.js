@@ -22,3 +22,10 @@ d3.json('/api/hospital_data')
     console.log(hospitalData);
   })
 
+  // City Data
+cityData = {}
+d3.json('/api/city_data')
+  .then(function (data) {
+    cityData = data;
+    console.log(cityData);
+  })
