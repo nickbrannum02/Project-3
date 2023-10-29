@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florida Pickleball And Population</title>
     <link rel="icon" href="../static/images/PickleballIcon.png">
-    <!-- add leaflet stylesheets -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+    <!-- Include Leaflet and Leaflet.markercluster -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
     <style>
-        /* styling for div groups */
+        /* CSS for styling the map and description */
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
@@ -43,21 +44,30 @@
         }
     </style>
 </head>
-
-
 <body style="background-color: gray; color:white;">
     <h1>Pickleball Court Locations in Relation to Elderly Population</h1>
     
-    <!-- container for leaflet map --> 
+    <!-- Container for the Leaflet map -->
     <div id="map"></div>
 
-    <!-- container for scatterplot -->
+
+    <!-- Container for the scatterplot -->
     <div style="width: 80%; margin: 0 auto; background-color: white; margin-left: 0; margin-right:auto;">
         <canvas id="scatterplot" width="600" height="150"></canvas>
     </div>
-    
+    <!-- Container for embedding Google Trends graphs -->
+    <div class="google-container">
+        
+    </div>
 
-    <!-- description/facts section -->
+    <!-- Container for additional information -->
+    <div class="details">
+        <!-- Additional information here -->
+    </div>
+
+    <!-- Container for the heat map -->
+    <div id="heat-map" style="width: 80%; margin: 0 auto;"></div>
+
     <div class="description">
         <h2>Fun Facts About Pickleball and Florida's Elderly Population</h2>
 
@@ -76,20 +86,17 @@
             <br> 10. Interest in pickleball has increased 467% over the past 5 years as measured by Google Trends, Utah is the state showing the most interest in pickleball currently. <br>
             
         </p>
-
-        <!-- Container for embedding google trends graphs -->
         <div class="google-container">
             <div class="google-interest-area">
                 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
                 <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"/m/063wkj","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F063wkj&hl=en-US","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
             </div>
             <div class="google-interest">
+                <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3461_RC01/embed_loader.js"></script>
                 <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/063wkj","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F063wkj&hl=en-US","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
             </div>
         </div>
 
-
-        <!-- container for additional information -->
         <div class="details">
             <br>
             <h2>Pickleball Court and Equipment Information</h2>
@@ -115,102 +122,89 @@
             </p>
         </div>
     </div>
-
-    <!-- leaflet cluster script import -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.0/leaflet.markercluster.js"></script>
 
-
-    <!-- container for used sources -->
     <div class="sources">
         <br><br><br>
         <h3>Sources</h3>
         <p>
-            <a href="https://usapickleball.org/what-is-pickleball/history-of-the-game/">Pickleball.org History of Pickleball</a><br>
-            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=">Florida Pickleball Statistics</a><br>
-            <a href="https://www.livebayside.com/10-little-known-facts-pickleball/">Little Known Facts About Pickleball</a><br>
-            <a href="https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.">NBC Story on Pickleball Injuries</a><br>
-            <a href="https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts">Pickleheads: Number of Pickleball Courts</a><br>
-            <a href="https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=pickleball&hl=en-US">Google Trends: Pickleball</a><br>
-            <a href="https://www.pickleheads.com/courts/us/florida">Pickleheads: Florida Courts</a><br>
-            <a href="https://apidocs.geoapify.com/playground/places/">Geoapify: Hospitals</a><br>
-            <a href="https://www.census.gov/data/developers/data-sets/popest-popproj/popest.Vintage_2019.html#list-tab-2014455046">US Census Data, 2019</a><br>
-            <a href="https://www.statsamerica.org/CityCountyFinder/">StatsAmerica US County Finder</a><br>
-            <a href="https://github.com/kelvins/US-Cities-Database/blob/main/csv/us_cities.csv">Github: US Cities Database</a><br>
-            <a href="https://en.wikipedia.org/wiki/Jacksonville,_Florida#Other">Wikipedia Jacksonville, Florida</a><br>
-            <a href="https://www.latlong.net/">Latitudes and Longitudes</a><br>
+            <a href="https://usapickleball.org/what-is-pickleball/history-of-the-game/">https://usapickleball.org/what-is-pickleball/history-of-the-game/</a><br>
+            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=">https://scholar.google.com/scholar?hl=en&as_sdt=0%2C45&q=pickleball+and+florida+statistics&btnG=</a><br>
+            <a href="https://www.livebayside.com/10-little-known-facts-pickleball/">https://www.livebayside.com/10-little-known-facts-pickleball/</a><br>
+            <a href="https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.">https://nbc-2.com/news/2023/07/19/pickleball-injuries-costing-400m-nationally-the-alarming-toll-on-players-health/#:~:text=The%20UBS%20study%20estimates%20that,linked%20to%20pickleball%2Drelated%20injuries.</a><br>
+            <a href="https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts">https://www.pickleheads.com/blog/pickleball-statistics#total-number-of-us-pickleball-courts</a>
         </p>
-    </div>  
-   
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+      <!-- leaflet-choropleth JavaScript -->
+    <script src="../static/js/getData.js"></script>
+    <script src="../static/js/logic.js"></script>
+
     <head>
         <title>Courts and Cities</title>
     </head>
     
         <h1>Courts and Cities</h1>
-
-        <div id="chart-container">
-            <canvas id="bar-chart"></canvas>
-        </div>
         
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script>
-        
-async function fetchData() {
-    const response = await fetch('/api/city_data');
-    const data = await response.json();
+    <!-- Container for the bar chart -->
+    <div id="chart-container">
+        <canvas id="bar-chart"></canvas>
+    </div>
 
-    const cities = data.map(entry => entry.City);
-    const courtCounts = data.map(entry => entry.cityData);
+    <!-- Add the Chart.js library for the bar chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-// Create bar chart 
-    const ctx = document.getElementById('bar-chart').getContext('2d');
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: cities,
-            datasets: [{
-                label: 'Number of Courts',
-                data: courtCounts,
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'Number of Courts'
-                    }
-                },
-                x: {
-                    title: {
-                        display: true,
-                        text: 'City'
-                    }
+    <!-- JavaScript for fetching and displaying data in the bar chart -->
+    <script>
+        // Fetch and display the data in the bar chart
+        async function fetchData() {
+            try {
+                const response = await fetch('/api/city_data'); // Make a request to your API endpoint
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
                 }
+                const data = await response.json(); // Parse the response as JSON
+                const cities = data.map(entry => entry.City);
+                const courtCounts = data.map(entry => entry['Number of Courts']);
+
+                // Create bar chart 
+                const ctx = document.getElementById('bar-chart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: cities,
+                        datasets: [{
+                            label: 'Number of Courts',
+                            data: courtCounts,
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Number of Courts'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'City'
+                                }
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching and displaying data:', error);
             }
         }
-    });
-}
 
-fetchData();
-
-        </script>
-    
- 
-    
-
-
-
-    <!-- final scripts used for js integration -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-    <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="../static/js/getData.js"></script>
-    <script src="../static/js/logic.js"></script>
+        fetchData(); 
+    </script>
 </body>
 </html>
