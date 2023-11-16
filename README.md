@@ -195,5 +195,19 @@ def city_data():
 if __name__ == '__main__':
     app.run(debug=True) 
   in order to query from the SQLite database the information needed to provide the data for the bar graph. 
-- I also wrote this code in order to create the details of the bar graph and to have it display the correct axis and data as it is seen on the browser page. 
+- I also wrote this code, # Execute an SQL query to fetch data
+sql_query = """SELECT City, "Number of Courts" FROM court_location"""
+
+cursor.execute(sql_query)
+
+# Fetch all rows from the query result
+rows = cursor.fetchall()
+# Close the database connection
+conn.close()
+
+# Convert the rows to a list of dictionaries
+city_data = [{'City': row[0], 'Number of Courts': row[1]} for row in rows]
+
+# Return the data as JSON
+return jsonify(city_data) in order to create the details of the bar graph and to have it display the correct axis and data as it is seen on the browser page. 
     to a new .py file 
