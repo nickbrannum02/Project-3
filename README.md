@@ -153,6 +153,47 @@ GitLens
 -  The last visible part of the body section is where our sources are linked, as we used many sources for our information we made sure to link them at the bottom of the document so they're out of the way but visible if needing to be accessed.
 -  To finish off the index.html is our scripts that were used to integrate our JavaScript files to connect the visual map and plots to our JavaScript files.
 
-
 ## Conclusion
 Our group completed a project focused on the relationship between pickleball courts and where older people move to retire, focusing exclusively on the state of Florida as our retirement location. Relationships of interest included:  elderly populations and proximity to pickleball courts and where is the elderly population on the rise within the US and where is it decreasing. Data was gathered primarily from Census.gov data tables to accurately identify populations of the different counties in Florida and an API from The Global Pickleball Network website to collect data focused on pickleball court locations.  
+
+## P.S Section 
+-  In order to better understand the quantity of pickleball courts in each city to demonstrate how popular the sport is in a location where the elderly population is significantly higher than the rest of the country, the bar graph found at the bottom of the browser page helps people identify which cities have the most courts available to play on.
+-  In order to get this graph to display I added this code,
+   // City Data
+cityData = {}
+d3.json('/api/city_data')
+  .then(function (data) {
+    cityData = data;
+    console.log(cityData);
+  })
+to the GetData.js file.
+
+I added the following app route, @app.route('/api/city_data', methods=['GET'])
+def city_data():
+    # Connect to the SQLite database
+    conn = sqlite3.connect('florida_info_db.sqlite')
+    cursor = conn.cursor()
+
+    # Execute an SQL query to fetch data
+    sql_query = """SELECT City, "Number of Courts" FROM court_location"""
+
+    cursor.execute(sql_query)
+
+    # Fetch all rows from the query result
+    rows = cursor.fetchall()
+    # Close the database connection
+    conn.close()
+
+    # Convert the rows to a list of dictionaries
+    city_data = [{'City': row[0], 'Number of Courts': row[1]} for row in rows]
+
+    # Return the data as JSON
+    return jsonify(city_data)
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True) 
+  in order to query from the SQLite database the information needed to provide the data for the bar graph. 
+- I also wrote this code in order to create the details of the bar graph and to have it display the correct axis and data as it is seen on the browser page. 
+    to a new .py file 
